@@ -58,6 +58,21 @@
             transition: opacity 0.5s, transform 0.5s ease-in-out;
             transform: scale(1.5);
         }
+
+        button#sendCreditBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #0066cc;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+            button#sendCreditBtn:hover {
+                background-color: #0056b3;
+            }
     </style>
 </head>
 <body>
@@ -69,7 +84,7 @@
     <h1>The Canonical Terms Blues</h1>
     <div id="score">Score: 0</div>
 
-    <!-- The rest of the HTML content, such as verses and chorus, remains unchanged and follows here. -->
+    <!-- Additional HTML content as described previously -->
     <div class="verse">
         <p>
             <span class="clickable" data-term="Suspected Abuse Or Neglect" data-start="1.46">Home concerns</span>, oh <span data-start="2.11">home</span> concerns<br>
@@ -197,7 +212,19 @@
             let score = 0;
             let clickedWords = new Set();
 
-            // Tooltip functionality
+            function createSendCreditButton() {
+                let buttonExists = document.getElementById('sendCreditBtn');
+                if (!buttonExists && score >= 15) {
+                    const sendCreditBtn = document.createElement('button');
+                    sendCreditBtn.id = 'sendCreditBtn';
+                    sendCreditBtn.textContent = 'Send Credit';
+                    sendCreditBtn.onclick = function () {
+                        window.open(`mailto:sohnenae@gmail.com?subject=Canonical Term Credit&body=I got ${score} points, code term canword.`);
+                    };
+                    document.body.appendChild(sendCreditBtn);
+                }
+            }
+
             clickables.forEach(el => {
                 el.addEventListener('mouseover', (e) => {
                     tooltip.textContent = e.target.getAttribute('data-term');
@@ -216,6 +243,7 @@
                         scoreElement.textContent = `Score: ${score}`;
                         clickedWords.add(el);
                         createPointBubble(e.pageX, e.pageY, score);
+                        createSendCreditButton(); // Check if it's time to add the button
                     }
                 });
             });
@@ -265,4 +293,4 @@
         });
     </script>
 </body>
-</html> 
+</html>
