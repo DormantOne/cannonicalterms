@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Canonical Terms Blues - Interactive Lyrics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .verse {
+            margin-bottom: 20px;
+        }
+
+        .chorus {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .clickable {
+            color: #0066cc;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .tooltip {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .point-bubble {
+            position: absolute;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: #ffcc00;
+            color: black;
+            font-size: 16px;
+            opacity: 0;
+            transition: opacity 0.5s, transform 0.5s ease-in-out;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <audio id="audio" controls>
+        <source src="Documentation_Blues.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h1>The Canonical Terms Blues</h1>
+    <div id="score">Score: 0</div>
+
+    <!-- The rest of the HTML content, such as verses and chorus, remains unchanged and follows here. -->
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="Suspected Abuse Or Neglect" data-start="1.46">Home concerns</span>, oh <span data-start="2.11">home</span> concerns<br>
+            <span class="clickable" data-term="Suspected Abuse Or Neglect" data-start="4.05">Abuse and neglect</span>, we've got to learn<br>
+            <span class="clickable" data-term="Risk For Terminal Injury Or Terminal Fall" data-start="15.94">Risk of falls</span> and <span class="clickable" data-term="Severe Malnutrition" data-start="17.47">malnutrition</span><br>
+            <span class="clickable" data-term="Inability Of Patient Or Caregivers To Provide Necessary Care Due To Psychiatric Diagnosis" data-start="18.85">Psychiatric conditions</span>, <span class="clickable" data-term="Substance Abuse" data-start="20.9">substance addiction</span><br>
+            <span class="clickable" data-term="Inhumane Living Conditions" data-start="22.59">Inhumane living</span>, <span class="clickable" data-term="Severe Food Insecurity" data-start="23.94">food insecurity</span><br>
+            <span class="clickable" data-term="Unstable Vitals" data-start="25.92">Unstable vitals</span>, it's no obscurity<br>
+            <span class="clickable" data-term="Electrolyte Abnormalities" data-start="29.48">Electrolytes out of whack</span>, <span class="clickable" data-term="Insufficient Weight Gain" data-start="31.02">weight gain lacking</span><br>
+            <span data-start="32.34">These home concerns, they keep on stacking</span>
+        </p>
+    </div>
+
+    <div class="chorus">
+        <p>
+            <span data-start="36.13">These are the blues, the canonical terms blues</span><br>
+            <span data-start="39.4">Medical jargon, we just can't refuse</span><br>
+            <span data-start="42.41">From head to toe, from young to old</span><br>
+            <span data-start="46.23">These are the stories that must be told</span>
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="Decreased Cognition" data-start="57.92">Confusion sets in</span>, cognition declines<br>
+            <span class="clickable" data-term="Increased Risk Of Fall" data-start="59.2">Falls increase</span>, <span class="clickable" data-term="Medication Non-Compliance" data-start="60.94">medication non-compliance climbs</span><br>
+            <span class="clickable" data-term="Increase In Violent Behaviors" data-start="62.8">Violent behaviors</span>, <span class="clickable" data-term="Inability To Complete ADLs" data-start="64.23">can't complete ADLs</span><br>
+            <span class="clickable" data-term="Complex Wound Care" data-start="65.75">Complex wound care</span>, <span class="clickable" data-term="Difficulty With Voiding Transfers And Associated Perineal Care" data-start="67.18">difficulty with voiding spells</span><br>
+            <span class="clickable" data-term="IV Antibiotics" data-start="69.12">IV antibiotics</span>, <span class="clickable" data-term="IV Fluids" data-start="70.71">fluids</span>, and <span class="clickable" data-term="Cognitive Redirection" data-start="71.39">redirection</span><br>
+            <span class="clickable" data-term="Safety Monitoring" data-start="73.05">Safety monitoring</span> needs our attention<br>
+            <span class="clickable" data-term="Decreased Ambulation Requiring Assistance" data-start="76.01">Ambulation's decreased</span>, assistance required<br>
+            <span class="clickable" data-term="Decreased PO Intake" data-start="79.86">PO intake's down</span>, situation's grown dire
+        </p>
+    </div>
+
+    <div class="chorus">
+        <p>
+            <span data-start="83.06">These are the blues, the canonical terms blues</span><br>
+            <span data-start="86.42">Medical jargon, we just can't refuse</span><br>
+            <span data-start="89.44">From head to toe, from young to old</span><br>
+            <span data-start="93.22">These are the stories that must be told</span>
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="Falls And Danger To Oneself" data-start="101.14">Weakness takes hold</span>, falls become dire<br>
+            <span class="clickable" data-term="Impulsive Unsafe Behaviors" data-start="102.9">Impulsive behaviors</span>, situations get dire<br>
+            <span class="clickable" data-term="Sufficient Pain Control Not Achieved" data-start="106.45">Pain control's a struggle</span>, <span class="clickable" data-term="Not At Baseline Mobility Status Requiring Additional Assistance" data-start="107.92">mobility's not right</span><br>
+            <span class="clickable" data-term="Unstable Vitals" data-start="109.86">Unstable vitals</span> keep us up at night<br>
+            <span class="clickable" data-term="Heart Rate Greater Than 99" data-start="113.37">GI bleeds come with a racing heart</span><br>
+            <span class="clickable" data-term="INR Or PT Or PTT" data-start="116.32">INR, PT, PTT off the chart</span><br>
+            <span class="clickable" data-term="Severe Pain Requiring IV Pain Medications" data-start="119.89">IV pain meds</span> to ease the ache<br>
+            <span class="clickable" data-term="Inability To Tolerate Oral Hydration" data-start="122.82">Can't take fluids by mouth</span>, it's more than we can take
+        </p>
+    </div>
+
+    <div class="chorus">
+        <p>
+            <span data-start="126.04">These are the blues, the canonical terms blues</span><br>
+            <span data-start="130.06">Medical jargon, we just can't refuse</span><br>
+            <span data-start="133.05">From head to toe, from young to old</span><br>
+            <span data-start="136.84">These are the stories that must be told</span>
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="Patient Febrile" data-start="140.27">UTIs bring fever</span> and <span class="clickable" data-term="Altered Mental Status" data-start="142.37">altered minds</span><br>
+            <span class="clickable" data-term="Orthostatic Hypotension" data-start="143.77">Orthostatic hypotension</span> of the worst kinds<br>
+            <span class="clickable" data-term="Failed Outpatient Treatment" data-start="147.2">Failed treatments</span> and <span class="clickable" data-term="Tachypnea" data-start="148.2">tachypnea</span><br>
+            <span class="clickable" data-term="Need For IV Antibiotics Due To Immunocompromised State" data-start="150.97">IV antibiotics for those who need 'em</span><br>
+            <span class="clickable" data-term="Severe Pain Requiring IV Pain Medications" data-start="153.24">Abdominal pain</span>, it's a complex case<br>
+            <span class="clickable" data-term="Bloody Diarrhea" data-start="156.77">Bloody diarrhea</span> sets a grueling pace<br>
+            <span class="clickable" data-term="Hemodynamic Instability" data-start="159.76">Hemodynamic instability</span>, <span class="clickable" data-term="Dehydration" data-start="161.62">dehydration</span> too<br>
+            <span class="clickable" data-term="Evidence Of End Organ Damage" data-start="163.33">End organ damage</span>, what can we do?
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="NOAC Not Reversed By Vitamin K" data-start="173.3">Blood thinners persist</span>, vitamin K can't reverse<br>
+            <span class="clickable" data-term="Thrombocytopenia" data-start="176.95">Platelets running low</span>, situation gets worse<br>
+            <span class="clickable" data-term="Ongoing Bleeding" data-start="180.26">Bleeding won't stop</span>, <span class="clickable" data-term="Active Bleeding That Cannot Be Controlled" data-start="181.75">beyond our control</span><br>
+            <span class="clickable" data-term="Recurrent Syncope Or Near Syncope" data-start="183.26">Fainting spells repeat</span>, taking their toll<br>
+            <span class="clickable" data-term="Cardiac Arrhythmias" data-start="186.62">Heart's rhythm's off-beat</span>, skipping and racing<br>
+            <span class="clickable" data-term="Exertional Dyspnea" data-start="190.39">Breathless with effort</span>, oxygen chasing<br>
+            <span class="clickable" data-term="Hypoxic" data-start="193.42">Blood oxygen's low</span>, we're in a bind<br>
+            <span data-start="196.67">These canonical terms, they're quite unkind</span>
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span class="clickable" data-term="Dehydration And Vomiting Requiring IV Antiemetics" data-start="203.18">Can't keep fluids down</span>, nausea's no joke<br>
+            <span class="clickable" data-term="Severe Electrolyte Or Metabolic Abnormalities" data-start="206.32">Electrolytes swing</span>, balance has broke<br>
+            <span class="clickable" data-term="Inability To Tolerate Oral Hydration" data-start="209.15">Sips won't stay down</span>, IVs are a must<br>
+            <span class="clickable" data-term="Hemodynamic Instability" data-start="212.63">Blood pressure's unstable</span>, in fluids we trust<br>
+            <span data-start="216.31">These medical terms, they tell a story</span><br>
+            <span data-start="219.2">Of bodies in crisis, far from their glory</span><br>
+            <span data-start="223.12">From head to toe, these blues they sing</span><br>
+            <span data-start="226.66">Of healing and hope, and all they can bring</span>
+        </p>
+    </div>
+
+    <div class="verse">
+        <p>
+            <span data-start="230.3">These canonical terms, they paint a picture</span><br>
+            <span data-start="233.85">Of human struggles and medical mixtures</span><br>
+            <span data-start="237.2">From confusion to weakness, from UTIs to falls</span><br>
+            <span data-start="238.67">The canonical terms blues, they cover it all</span>
+        </p>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const clickables = document.querySelectorAll('.clickable');
+            const tooltip = document.getElementById('tooltip');
+            const audio = document.getElementById('audio');
+            const allWords = document.querySelectorAll('span[data-start]');
+            const scoreElement = document.getElementById('score');
+            let currentIndex = 0;
+            let score = 0;
+            let clickedWords = new Set();
+
+            // Tooltip functionality
+            clickables.forEach(el => {
+                el.addEventListener('mouseover', (e) => {
+                    tooltip.textContent = e.target.getAttribute('data-term');
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = e.pageX + 'px';
+                    tooltip.style.top = e.pageY + 'px';
+                });
+
+                el.addEventListener('mouseout', () => {
+                    tooltip.style.display = 'none';
+                });
+
+                el.addEventListener('click', (e) => {
+                    if (el.classList.contains('highlight') && !clickedWords.has(el)) {
+                        score++;
+                        scoreElement.textContent = `Score: ${score}`;
+                        clickedWords.add(el);
+                        createPointBubble(e.pageX, e.pageY, score);
+                    }
+                });
+            });
+
+            function createPointBubble(x, y, currentScore) {
+                const bubble = document.createElement('div');
+                bubble.className = 'point-bubble';
+                bubble.textContent = `+1 | Total: ${currentScore}`;
+                document.body.appendChild(bubble);
+                bubble.style.left = `${x - 20}px`;
+                bubble.style.top = `${y - 20}px`;
+                setTimeout(() => {
+                    bubble.style.opacity = 1;
+                    bubble.style.transform = 'scale(1) translateY(-20px)';
+                }, 10);
+                setTimeout(() => {
+                    bubble.style.opacity = 0;
+                    document.body.removeChild(bubble);
+                }, 1000);
+            }
+
+            // Highlighting and auto-scroll functionality
+            audio.addEventListener('timeupdate', () => {
+                const currentTime = audio.currentTime;
+
+                while (currentIndex < allWords.length && currentTime >= parseFloat(allWords[currentIndex].dataset.start)) {
+                    allWords[currentIndex].classList.add('highlight');
+                    allWords[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                    if (currentIndex > 0) {
+                        allWords[currentIndex - 1].classList.remove('highlight');
+                    }
+                    currentIndex++;
+                }
+
+                // If the audio is scrubbed backwards, reset highlighting
+                for (let i = 0; i < currentIndex; i++) {
+                    if (parseFloat(allWords[i].dataset.start) > currentTime) {
+                        allWords[i].classList.remove('highlight');
+                    }
+                }
+
+                if (currentIndex > 0 && currentTime < parseFloat(allWords[currentIndex - 1].dataset.start)) {
+                    currentIndex = 0;
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
