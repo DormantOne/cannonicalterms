@@ -94,48 +94,60 @@
                 "Pro sanitate omnium": "For the health of all"
             };
 
-            // fetch the external JSON
+            // fetch the external JSON (replace 'transcript_data.json' with the correct URL)
             fetch('transcript_data.json')
                 .then(response => response.json())
                 .then(data => {
                     const transcript = data.transcript;
-                    const words = data.words;
+                    const wordsData = data.words;
 
-                    // Parse transcript into lines
+                    // Extract only recognized words and sort them by start time
+                    const recognizedWords = wordsData
+                        .filter(w => w.case === "success" && !isNaN(parseFloat(w.start)))
+                        .sort((a, b) => parseFloat(a.start) - parseFloat(b.start));
+
+                    // We'll use recognizedWords as a timeline anchor.
+                    // wordPointer tracks our position in recognizedWords.
+                    let wordPointer = 0;
+
                     const lines = transcript.split('\r\n').filter(line => line.trim() !== '');
-
                     const lineElements = [];
-
-                    // If you want to assign approximate times to lines with no recognized words, uncomment the following:
-                    // let lastKnownStart = 0;
-                    // let approximateIncrement = 2; // how many seconds to increment per unknown line
 
                     lines.forEach((line) => {
                         const lineWords = line.replace(/\*|\./g, '').split(/\s+/).map(w => w.toLowerCase());
+
                         let earliestStart = null;
+                        let matchedWordIndex = null; 
 
-                        // Find recognized words' earliest start time
-                        words.forEach(wordObj => {
-                            const w = wordObj.word.toLowerCase();
-                            if (lineWords.includes(w) && wordObj.case === "success") {
-                                const startTime = parseFloat(wordObj.start);
-                                if (!isNaN(startTime)) {
-                                    if (earliestStart === null || startTime < earliestStart) {
-                                        earliestStart = startTime;
-                                    }
-                                }
+                        // Try to match line to the next recognized words (starting from wordPointer)
+                        for (let i = wordPointer; i < recognizedWords.length; i++) {
+                            const recognizedWord = recognizedWords[i].word.toLowerCase();
+                            if (lineWords.includes(recognizedWord)) {
+                                earliestStart = parseFloat(recognizedWords[i].start);
+                                matchedWordIndex = i;
+                                break;
                             }
-                        });
+                        }
 
-                        // If no recognized word found, we skip highlighting by NOT setting data-start
-                        // If you'd rather assign an approximate time, uncomment below:
-                        // if (earliestStart === null) {
-                        //     earliestStart = lastKnownStart + approximateIncrement;
-                        // }
-                        // if (earliestStart !== null) {
-                        //     lastKnownStart = earliestStart;
-                        // }
+                        // If no match found:
+                        // We'll assign the time based on the next available recognized word if any:
+                        if (earliestStart === null) {
+                            if (wordPointer < recognizedWords.length) {
+                                // Use the time of the next recognized word as an anchor
+                                earliestStart = parseFloat(recognizedWords[wordPointer].start) - 0.5;
+                                // a slight offset so this line appears just before the next recognized word
+                            } else {
+                                // No more recognized words at all, assign a default increment
+                                earliestStart = (recognizedWords.length > 0) ?
+                                    parseFloat(recognizedWords[recognizedWords.length - 1].start) + 2 :
+                                    0;
+                            }
+                        } else {
+                            // If we matched a word, move wordPointer to just after the matched word
+                            wordPointer = matchedWordIndex + 1;
+                        }
 
+                        // Determine if line is chorus or verse:
                         let isChorus = false;
                         let isLatin = false;
                         let cleanLine = line.replace(/\*/g, '').trim();
@@ -153,11 +165,7 @@
 
                         const span = document.createElement('span');
                         span.textContent = line;
-
-                        // Only set data-start if earliestStart is found or assigned
-                        if (earliestStart !== null) {
-                            span.setAttribute('data-start', earliestStart);
-                        }
+                        span.setAttribute('data-start', earliestStart);
 
                         if (isLatin) {
                             span.classList.add('clickable');
