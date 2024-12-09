@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Interactive Handwashing Song</title>
     <style>
         body {
@@ -94,7 +94,7 @@
                 "Pro sanitate omnium": "For the health of all"
             };
 
-            // Fetch the external JSON (replace 'transcript_data.json' with the correct URL)
+            // fetch the external JSON
             fetch('transcript_data.json')
                 .then(response => response.json())
                 .then(data => {
@@ -104,22 +104,17 @@
                     // Parse transcript into lines
                     const lines = transcript.split('\r\n').filter(line => line.trim() !== '');
 
-                    // For each line, find earliest recognized word start time
-                    // We'll look up each line's words in 'words' array:
-                    // Strategy: For each line, find words from 'words' array that appear in that line
-                    // and pick the earliest start. If no recognized word found, we can skip or set a default time.
-
                     const lineElements = [];
 
-                    lines.forEach((line) => {
-                        // Normalize line for matching: lowercasing and removing punctuation might help
-                        const lineWords = line.replace(/\*|\./g, '').split(/\s+/).map(w => w.toLowerCase());
+                    // If you want to assign approximate times to lines with no recognized words, uncomment the following:
+                    // let lastKnownStart = 0;
+                    // let approximateIncrement = 2; // how many seconds to increment per unknown line
 
+                    lines.forEach((line) => {
+                        const lineWords = line.replace(/\*|\./g, '').split(/\s+/).map(w => w.toLowerCase());
                         let earliestStart = null;
 
-                        // Find any word in 'words' that matches any word in this line
-                        // Simple approach: if 'words' array is large, consider indexing.
-                        // For this demo, we do a naive approach:
+                        // Find recognized words' earliest start time
                         words.forEach(wordObj => {
                             const w = wordObj.word.toLowerCase();
                             if (lineWords.includes(w) && wordObj.case === "success") {
@@ -132,24 +127,20 @@
                             }
                         });
 
-                        // If we didn't find any recognized word, set earliestStart = 0 or skip
-                        if (earliestStart === null) {
-                            earliestStart = 0;
-                        }
+                        // If no recognized word found, we skip highlighting by NOT setting data-start
+                        // If you'd rather assign an approximate time, uncomment below:
+                        // if (earliestStart === null) {
+                        //     earliestStart = lastKnownStart + approximateIncrement;
+                        // }
+                        // if (earliestStart !== null) {
+                        //     lastKnownStart = earliestStart;
+                        // }
 
-                        // Determine if line is chorus or verse:
-                        // For simplicity, let's call lines with all Latin lines (marked by *) as chorus
-                        // If line starts with '*' we treat as possibly chorus line:
                         let isChorus = false;
                         let isLatin = false;
                         let cleanLine = line.replace(/\*/g, '').trim();
                         if (line.trim().startsWith('*')) {
-                            // Consider lines starting with '*' as Latin
                             isLatin = true;
-                            // Guessing chorus/verse from known pattern: The repeated sets of three Latin lines form a chorus.
-                            // Just check if this line is one of the known chorus lines:
-                            // Let's say if it's one of Signa/Manus/Sanitatis lines, it's chorus.
-                            // Otherwise, treat all Latin lines as verse. Adjust as needed.
                             if (cleanLine.startsWith("Signa sequimur") ||
                                 cleanLine.startsWith("Manus mundae") ||
                                 cleanLine.startsWith("Sanitatis custodes")) {
@@ -162,10 +153,13 @@
 
                         const span = document.createElement('span');
                         span.textContent = line;
-                        span.setAttribute('data-start', earliestStart);
+
+                        // Only set data-start if earliestStart is found or assigned
+                        if (earliestStart !== null) {
+                            span.setAttribute('data-start', earliestStart);
+                        }
 
                         if (isLatin) {
-                            // If latin, add clickable and translation if known
                             span.classList.add('clickable');
                             if (translations[cleanLine]) {
                                 span.setAttribute('data-translation', translations[cleanLine]);
@@ -183,13 +177,18 @@
                     let currentIndex = 0;
                     audio.addEventListener('timeupdate', () => {
                         const currentTime = audio.currentTime;
-                        while (currentIndex < lineElements.length && currentTime >= parseFloat(lineElements[currentIndex].dataset.start)) {
-                            lineElements[currentIndex].classList.add('highlight');
-                            lineElements[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                            if (currentIndex > 0) {
-                                lineElements[currentIndex - 1].classList.remove('highlight');
+                        while (currentIndex < lineElements.length) {
+                            const startAttr = lineElements[currentIndex].getAttribute('data-start');
+                            if (startAttr !== null && currentTime >= parseFloat(startAttr)) {
+                                lineElements[currentIndex].classList.add('highlight');
+                                lineElements[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                if (currentIndex > 0) {
+                                    lineElements[currentIndex - 1].classList.remove('highlight');
+                                }
+                                currentIndex++;
+                            } else {
+                                break;
                             }
-                            currentIndex++;
                         }
                     });
                 });
