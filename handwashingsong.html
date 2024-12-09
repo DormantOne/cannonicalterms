@@ -53,170 +53,149 @@
     </style>
 </head>
 <body>
-    <h1>Interactive Handwashing Song</h1>
+<h1>Interactive Handwashing Song</h1>
 
-    <audio id="audio" controls>
-        <source src="Clean_Canticle_2.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+<audio id="audio" controls>
+    <source src="Clean_Canticle_2.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
 
-    <div id="lyrics"></div>
-    <div id="tooltip" class="tooltip"></div>
+<div id="lyrics"></div>
+<div id="tooltip" class="tooltip"></div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const audio = document.getElementById('audio');
-            const tooltip = document.getElementById('tooltip');
-            const lyricsContainer = document.getElementById('lyrics');
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('audio');
+    const tooltip = document.getElementById('tooltip');
+    const lyricsContainer = document.getElementById('lyrics');
 
-            // Hard-coded dictionary for translations of known Latin lines:
-            const translations = {
-                "Signa sequimur, veritatem quaerimus": "We follow the signs, we seek the truth",
-                "Manus mundae, mens attenta": "Clean hands, attentive mind",
-                "Sanitatis custodes sumus": "We are the guardians of health",
-                "Tempus numeratum, rituale servatum": "Measured time, ritual preserved",
-                "In ablutione, constantia": "In washing, steadfastness",
-                "Instrumenta pura, cura secura": "Pure instruments, secure care",
-                "In diligentia, excellentia": "In diligence, excellence",
-                "Invisibilia vincimus scientia": "We conquer the invisible through science",
-                "In persistentia, victoria": "In persistence, victory",
-                "Vasa vacua, pericula vera": "Empty vessels, real dangers",
-                "Repleatur sine mora": "Must be refilled without delay",
-                "Mens intentiva, cura preventiva": "Attentive mind, preventive care",
-                "In sapientia, prudentia": "In wisdom, prudence",
-                "Signa dubia, protectio certa": "Uncertain signs, certain protection",
-                "Melius praevenire quam poenitere": "Better to prevent than to regret",
-                "Verba lenia, effectus magna": "Gentle words, great effects",
-                "In harmonia, efficacia": "In harmony, effectiveness",
-                "In purificatione est salus": "In purification there is salvation",
-                "Per scientiam, absolutio": "Through knowledge, absolution",
-                "Eternam vigilantiam": "Eternal vigilance",
-                "Pro sanitate omnium": "For the health of all"
-            };
+    const translations = {
+        "Signa sequimur, veritatem quaerimus": "We follow the signs, we seek the truth",
+        "Manus mundae, mens attenta": "Clean hands, attentive mind",
+        "Sanitatis custodes sumus": "We are the guardians of health",
+        "Tempus numeratum, rituale servatum": "Measured time, ritual preserved",
+        "In ablutione, constantia": "In washing, steadfastness",
+        "Instrumenta pura, cura secura": "Pure instruments, secure care",
+        "In diligentia, excellentia": "In diligence, excellence",
+        "Invisibilia vincimus scientia": "We conquer the invisible through science",
+        "In persistentia, victoria": "In persistence, victory",
+        "Vasa vacua, pericula vera": "Empty vessels, real dangers",
+        "Repleatur sine mora": "Must be refilled without delay",
+        "Mens intentiva, cura preventiva": "Attentive mind, preventive care",
+        "In sapientia, prudentia": "In wisdom, prudence",
+        "Signa dubia, protectio certa": "Uncertain signs, certain protection",
+        "Melius praevenire quam poenitere": "Better to prevent than to regret",
+        "Verba lenia, effectus magna": "Gentle words, great effects",
+        "In harmonia, efficacia": "In harmony, effectiveness",
+        "In purificatione est salus": "In purification there is salvation",
+        "Per scientiam, absolutio": "Through knowledge, absolution",
+        "Eternam vigilantiam": "Eternal vigilance",
+        "Pro sanitate omnium": "For the health of all"
+    };
 
-            // fetch the external JSON (replace 'transcript_data.json' with the correct URL)
-            fetch('transcript_data.json')
-                .then(response => response.json())
-                .then(data => {
-                    const transcript = data.transcript;
-                    const wordsData = data.words;
+    // Replace 'transcript_data.json' with the actual URL/path to your JSON file
+    fetch('transcript_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const transcript = data.transcript;
+            const wordsData = data.words;
 
-                    // Extract only recognized words and sort them by start time
-                    const recognizedWords = wordsData
-                        .filter(w => w.case === "success" && !isNaN(parseFloat(w.start)))
-                        .sort((a, b) => parseFloat(a.start) - parseFloat(b.start));
+            // Create a map of recognized words to their start times (multiple occurrences possible)
+            // We will just store them as array of {word, start} sorted by start time.
+            const recognizedWords = wordsData
+                .filter(w => w.case === "success" && !isNaN(parseFloat(w.start)))
+                .map(w => ({word: w.word.toLowerCase(), start: parseFloat(w.start)}));
 
-                    // We'll use recognizedWords as a timeline anchor.
-                    // wordPointer tracks our position in recognizedWords.
-                    let wordPointer = 0;
+            // Parse transcript lines
+            const lines = transcript.split('\r\n').filter(line => line.trim() !== '');
 
-                    const lines = transcript.split('\r\n').filter(line => line.trim() !== '');
-                    const lineElements = [];
+            const lineElements = [];
 
-                    lines.forEach((line) => {
-                        const lineWords = line.replace(/\*|\./g, '').split(/\s+/).map(w => w.toLowerCase());
+            lines.forEach((line) => {
+                const lineWords = line.replace(/\*|\./g, '').split(/\s+/).map(w => w.toLowerCase());
+                let earliestStart = null;
 
-                        let earliestStart = null;
-                        let matchedWordIndex = null; 
-
-                        // Try to match line to the next recognized words (starting from wordPointer)
-                        for (let i = wordPointer; i < recognizedWords.length; i++) {
-                            const recognizedWord = recognizedWords[i].word.toLowerCase();
-                            if (lineWords.includes(recognizedWord)) {
-                                earliestStart = parseFloat(recognizedWords[i].start);
-                                matchedWordIndex = i;
-                                break;
-                            }
+                // Find all recognized words that appear in this line and track the earliest start
+                recognizedWords.forEach(rw => {
+                    if (lineWords.includes(rw.word)) {
+                        if (earliestStart === null || rw.start < earliestStart) {
+                            earliestStart = rw.start;
                         }
-
-                        // If no match found:
-                        // We'll assign the time based on the next available recognized word if any:
-                        if (earliestStart === null) {
-                            if (wordPointer < recognizedWords.length) {
-                                // Use the time of the next recognized word as an anchor
-                                earliestStart = parseFloat(recognizedWords[wordPointer].start) - 0.5;
-                                // a slight offset so this line appears just before the next recognized word
-                            } else {
-                                // No more recognized words at all, assign a default increment
-                                earliestStart = (recognizedWords.length > 0) ?
-                                    parseFloat(recognizedWords[recognizedWords.length - 1].start) + 2 :
-                                    0;
-                            }
-                        } else {
-                            // If we matched a word, move wordPointer to just after the matched word
-                            wordPointer = matchedWordIndex + 1;
-                        }
-
-                        // Determine if line is chorus or verse:
-                        let isChorus = false;
-                        let isLatin = false;
-                        let cleanLine = line.replace(/\*/g, '').trim();
-                        if (line.trim().startsWith('*')) {
-                            isLatin = true;
-                            if (cleanLine.startsWith("Signa sequimur") ||
-                                cleanLine.startsWith("Manus mundae") ||
-                                cleanLine.startsWith("Sanitatis custodes")) {
-                                isChorus = true;
-                            }
-                        }
-
-                        const wrapper = document.createElement('div');
-                        wrapper.classList.add(isChorus ? 'chorus' : 'verse');
-
-                        const span = document.createElement('span');
-                        span.textContent = line;
-                        span.setAttribute('data-start', earliestStart);
-
-                        if (isLatin) {
-                            span.classList.add('clickable');
-                            if (translations[cleanLine]) {
-                                span.setAttribute('data-translation', translations[cleanLine]);
-                            } else {
-                                span.setAttribute('data-translation', "No translation available");
-                            }
-                        }
-
-                        wrapper.appendChild(span);
-                        lyricsContainer.appendChild(wrapper);
-                        lineElements.push(span);
-                    });
-
-                    // Highlighting logic
-                    let currentIndex = 0;
-                    audio.addEventListener('timeupdate', () => {
-                        const currentTime = audio.currentTime;
-                        while (currentIndex < lineElements.length) {
-                            const startAttr = lineElements[currentIndex].getAttribute('data-start');
-                            if (startAttr !== null && currentTime >= parseFloat(startAttr)) {
-                                lineElements[currentIndex].classList.add('highlight');
-                                lineElements[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                if (currentIndex > 0) {
-                                    lineElements[currentIndex - 1].classList.remove('highlight');
-                                }
-                                currentIndex++;
-                            } else {
-                                break;
-                            }
-                        }
-                    });
+                    }
                 });
 
-            // Tooltip logic
-            document.addEventListener('click', (event) => {
-                if (event.target.classList.contains('clickable')) {
-                    const translation = event.target.getAttribute('data-translation');
-                    tooltip.textContent = translation;
-                    tooltip.style.display = 'block';
-                    const rect = event.target.getBoundingClientRect();
-                    tooltip.style.left = rect.left + window.scrollX + 'px';
-                    tooltip.style.top = rect.bottom + window.scrollY + 5 + 'px';
-                } else if (tooltip.style.display === 'block') {
-                    tooltip.style.display = 'none';
+                let isChorus = false;
+                let isLatin = false;
+                let cleanLine = line.replace(/\*/g, '').trim();
+                if (line.trim().startsWith('*')) {
+                    isLatin = true;
+                    if (cleanLine.startsWith("Signa sequimur") ||
+                        cleanLine.startsWith("Manus mundae") ||
+                        cleanLine.startsWith("Sanitatis custodes")) {
+                        isChorus = true;
+                    }
                 }
+
+                const wrapper = document.createElement('div');
+                wrapper.classList.add(isChorus ? 'chorus' : 'verse');
+
+                const span = document.createElement('span');
+                span.textContent = line;
+
+                // Only set data-start if we have an earliestStart
+                if (earliestStart !== null) {
+                    span.setAttribute('data-start', earliestStart);
+                }
+
+                if (isLatin) {
+                    span.classList.add('clickable');
+                    if (translations[cleanLine]) {
+                        span.setAttribute('data-translation', translations[cleanLine]);
+                    } else {
+                        span.setAttribute('data-translation', "No translation available");
+                    }
+                }
+
+                wrapper.appendChild(span);
+                lyricsContainer.appendChild(wrapper);
+                lineElements.push(span);
             });
 
+            let currentIndex = 0;
+            // Filter lineElements to only those with a data-start (recognized words)
+            const timedLines = lineElements
+                .map((el, i) => ({el, i, start: parseFloat(el.getAttribute('data-start'))}))
+                .filter(item => !isNaN(item.start))
+                .sort((a,b) => a.start - b.start);
+
+            audio.addEventListener('timeupdate', () => {
+                const currentTime = audio.currentTime;
+                while (currentIndex < timedLines.length && currentTime >= timedLines[currentIndex].start) {
+                    timedLines[currentIndex].el.classList.add('highlight');
+                    timedLines[currentIndex].el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    if (currentIndex > 0) {
+                        timedLines[currentIndex - 1].el.classList.remove('highlight');
+                    }
+                    currentIndex++;
+                }
+            });
         });
-    </script>
+
+    // Tooltip logic
+    document.addEventListener('click', (event) => {
+        if (event.target.classList.contains('clickable')) {
+            const translation = event.target.getAttribute('data-translation');
+            tooltip.textContent = translation;
+            tooltip.style.display = 'block';
+            const rect = event.target.getBoundingClientRect();
+            tooltip.style.left = rect.left + window.scrollX + 'px';
+            tooltip.style.top = rect.bottom + window.scrollY + 5 + 'px';
+        } else if (tooltip.style.display === 'block') {
+            tooltip.style.display = 'none';
+        }
+    });
+});
+</script>
+
 </body>
 </html>
- 
