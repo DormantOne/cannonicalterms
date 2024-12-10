@@ -146,7 +146,7 @@
         // Load and process the lyrics data
         async function loadLyrics() {
             try {
-                const response = await window.fs.readFile('songtimestamps.json', { encoding: 'utf8' });
+                const response = await window.fs.readFile('transcript_data.json', { encoding: 'utf8' });
                 const data = JSON.parse(response);
                 wordsData = data.words;
                 
