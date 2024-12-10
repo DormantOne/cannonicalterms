@@ -1,5 +1,5 @@
 {
-  "transcript": "*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWash thy palms with measured care\r\nTwenty seconds, time to spare\r\nBefore the patient, after too\r\nThis vital rite we must pursue\r\n*Tempus numeratum, rituale servatum*\r\n*In ablutione, constantia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nEach device we sanitize\r\nBetween each case we recognize\r\nThe time of contact must suffice\r\nmicrobes to be neutralized\r\n*Instrumenta pura, cura secura*\r\n*In diligentia, excellentia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nBeneath our sight they multiply\r\nIn matrix walls they fortify\r\nEach catheter and line deny\r\nTheir colonizing battle cry\r\n*Invisibilia vincimus scientia*\r\n*In persistentia, victoria*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWhen vessels empty stand in shame\r\nLet not neglect bring us to blame\r\nThe sanitizer's empty frame\r\nMust swift attention now reclaim\r\n*Vasa vacua, pericula vera*\r\n*Repleatur sine mora*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWhile waters flow across our hands\r\nWe contemplate infection's strands\r\nEach patient's risk we understand\r\nAs tubes and lines we wisely scan\r\n*Mens intentiva, cura preventiva*\r\n*In sapientia, prudentia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nDon the gown and mask with care\r\nFor droplet, contact, and the air\r\nStandard precautions everywhere\r\nEach barrier we must prepare\r\n*Signa dubia, protectio certa*\r\n*Melius praevenire quam poenitere*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWith kindness do we guide the way\r\nWhen protocols begin to stray\r\nNo judgment cast, no harsh display\r\nBut gentle words that seem to say\r\nTogether we maintain the way\r\nThat keeps infection's spread at bay\r\n*Verba lenia, effectus magna*\r\n*In harmonia, efficacia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\n*In purificatione est salus*\r\n*Per scientiam, absolutio*\r\n*Eternam vigilantiam*\r\n*Pro sanitate omnium*",
+  "transcript": "*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWash thy palms with measured care\r\nTwenty seconds, time to spare\r\nBefore the patient, after too\r\nThis vital rite we must pursue\r\n*Tempus numeratum, rituale servatum*\r\n*In ablutione, constantia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nEach device we sanitize\r\nBetween each case we recognize\r\nThe time of contact must suffice\r\nmicrobes to be neutralized\r\n*In diligentia, excellentia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nBeneath our sight they multiply\r\nIn matrix walls they fortify\r\nEach catheter and line deny\r\nTheir colonizing battle cry\r\n*Invisibilia vincimus scientia*\r\n*In persistentia, victoria*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWhen vessels empty stand in shame\r\nLet not neglect bring us to blame\r\nThe sanitizer's empty frame\r\nMust swift attention now reclaim\r\n*Vasa vacua, pericula vera*\r\n*Repleatur sine mora*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nWhile waters flow across our hands\r\nWe contemplate infection's strands\r\nEach patient's risk we understand\r\nAs tubes and lines we wisely scan\r\n*In sapientia, prudentia*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*Sanitatis custodes sumus*\r\nDon the gown and mask with care\r\nFor droplet, contact, and the air\r\nStandard precautions everywhere\r\nEach barrier we must prepare\r\n*Melius praevenire quam poenitere*\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\nWith kindness do we guide the way\r\nWhen protocols begin to stray\r\nNo judgment cast, no harsh display\r\nBut gentle words that seem to say\r\nTogether we maintain the way\r\nThat keeps infection's spread at bay\r\n*Signa sequimur, veritatem quaerimus*\r\n*Manus mundae, mens attenta*\r\n*In purificatione est salus*\r\n*Eternam vigilantiam*\r\n*Pro sanitate omnium*",
   "words": [
     {
       "alignedWord": "<unk>",
@@ -166,15 +166,15 @@
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 22.32,
+      "end": 18.38,
       "endOffset": 94,
       "phones": [
         {
-          "duration": 0.01,
+          "duration": 1.29,
           "phone": "oov_S"
         }
       ],
-      "start": 22.31,
+      "start": 17.09,
       "startOffset": 89,
       "word": "sumus"
     },
@@ -185,7 +185,7 @@
       "endOffset": 101,
       "phones": [
         {
-          "duration": 0.19,
+          "duration": 0.2,
           "phone": "w_B"
         },
         {
@@ -197,7 +197,7 @@
           "phone": "sh_E"
         }
       ],
-      "start": 22.33,
+      "start": 22.32,
       "startOffset": 97,
       "word": "Wash"
     },
@@ -1439,7 +1439,7 @@
     {
       "alignedWord": "neutralized",
       "case": "success",
-      "end": 60.4,
+      "end": 60.39,
       "endOffset": 506,
       "phones": [
         {
@@ -1471,7 +1471,7 @@
           "phone": "ay_I"
         },
         {
-          "duration": 0.07,
+          "duration": 0.06,
           "phone": "z_I"
         },
         {
@@ -1484,187 +1484,203 @@
       "word": "neutralized"
     },
     {
-      "alignedWord": "<unk>",
+      "alignedWord": "in",
       "case": "success",
-      "end": 60.74,
-      "endOffset": 520,
+      "end": 60.75,
+      "endOffset": 511,
       "phones": [
         {
-          "duration": 0.34,
-          "phone": "oov_S"
+          "duration": 0.09,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "n_E"
         }
       ],
-      "start": 60.4,
+      "start": 60.5,
       "startOffset": 509,
-      "word": "Instrumenta"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 525,
-      "startOffset": 521,
-      "word": "pura"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 531,
-      "startOffset": 527,
-      "word": "cura"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 538,
-      "startOffset": 532,
-      "word": "secura"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 544,
-      "startOffset": 542,
       "word": "In"
     },
     {
-      "case": "not-found-in-audio",
-      "endOffset": 555,
-      "startOffset": 545,
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 61.58,
+      "endOffset": 522,
+      "phones": [
+        {
+          "duration": 0.46,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 61.12,
+      "startOffset": 512,
       "word": "diligentia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 568,
-      "startOffset": 557,
+      "endOffset": 535,
+      "startOffset": 524,
       "word": "excellentia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 577,
-      "startOffset": 572,
+      "endOffset": 544,
+      "startOffset": 539,
       "word": "Signa"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 586,
-      "startOffset": 578,
-      "word": "sequimur"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 597,
-      "startOffset": 588,
-      "word": "veritatem"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 607,
-      "startOffset": 598,
-      "word": "quaerimus"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 60.75,
-      "endOffset": 616,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 60.74,
-      "startOffset": 611,
-      "word": "Manus"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 61.580000000000005,
-      "endOffset": 623,
-      "phones": [
-        {
-          "duration": 0.49,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 61.09,
-      "startOffset": 617,
-      "word": "mundae"
-    },
-    {
-      "alignedWord": "mens",
-      "case": "success",
-      "end": 61.74,
-      "endOffset": 629,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "m_B"
-        },
-        {
-          "duration": 0.01,
-          "phone": "eh_I"
-        },
-        {
-          "duration": 0.08,
-          "phone": "n_I"
-        },
-        {
-          "duration": 0.06,
-          "phone": "z_E"
-        }
-      ],
-      "start": 61.580000000000005,
-      "startOffset": 625,
-      "word": "mens"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 62.39,
-      "endOffset": 637,
+      "endOffset": 553,
       "phones": [
         {
           "duration": 0.12,
           "phone": "oov_S"
         }
       ],
-      "start": 62.27,
-      "startOffset": 630,
+      "start": 62.269999999999996,
+      "startOffset": 545,
+      "word": "sequimur"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 67.22,
+      "endOffset": 564,
+      "phones": [
+        {
+          "duration": 0.74,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 66.48,
+      "startOffset": 555,
+      "word": "veritatem"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 67.42999999999999,
+      "endOffset": 574,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 67.28,
+      "startOffset": 565,
+      "word": "quaerimus"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 70.02,
+      "endOffset": 583,
+      "phones": [
+        {
+          "duration": 1.55,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 68.47,
+      "startOffset": 578,
+      "word": "Manus"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 71.16,
+      "endOffset": 590,
+      "phones": [
+        {
+          "duration": 0.85,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 70.31,
+      "startOffset": 584,
+      "word": "mundae"
+    },
+    {
+      "alignedWord": "mens",
+      "case": "success",
+      "end": 72.05,
+      "endOffset": 596,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "z_E"
+        }
+      ],
+      "start": 71.78999999999999,
+      "startOffset": 592,
+      "word": "mens"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 72.35,
+      "endOffset": 604,
+      "phones": [
+        {
+          "duration": 0.27,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 72.08,
+      "startOffset": 597,
       "word": "attenta"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 67.43,
-      "endOffset": 650,
+      "end": 72.61,
+      "endOffset": 617,
       "phones": [
         {
-          "duration": 0.95,
+          "duration": 0.19,
           "phone": "oov_S"
         }
       ],
-      "start": 66.48,
-      "startOffset": 641,
+      "start": 72.42,
+      "startOffset": 608,
       "word": "Sanitatis"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 68.88,
-      "endOffset": 659,
+      "end": 73.399999,
+      "endOffset": 626,
       "phones": [
         {
-          "duration": 0.41,
+          "duration": 0.56,
           "phone": "oov_S"
         }
       ],
-      "start": 68.47,
-      "startOffset": 651,
+      "start": 72.839999,
+      "startOffset": 618,
       "word": "custodes"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 80.47,
-      "endOffset": 665,
+      "endOffset": 632,
       "phones": [
         {
           "duration": 0.36,
@@ -1672,14 +1688,14 @@
         }
       ],
       "start": 80.11,
-      "startOffset": 660,
+      "startOffset": 627,
       "word": "sumus"
     },
     {
       "alignedWord": "beneath",
       "case": "success",
       "end": 80.72,
-      "endOffset": 675,
+      "endOffset": 642,
       "phones": [
         {
           "duration": 0.01,
@@ -1703,14 +1719,14 @@
         }
       ],
       "start": 80.47,
-      "startOffset": 668,
+      "startOffset": 635,
       "word": "Beneath"
     },
     {
       "alignedWord": "our",
       "case": "success",
       "end": 80.9,
-      "endOffset": 679,
+      "endOffset": 646,
       "phones": [
         {
           "duration": 0.07,
@@ -1722,14 +1738,14 @@
         }
       ],
       "start": 80.72,
-      "startOffset": 676,
+      "startOffset": 643,
       "word": "our"
     },
     {
       "alignedWord": "sight",
       "case": "success",
       "end": 81.27000000000001,
-      "endOffset": 685,
+      "endOffset": 652,
       "phones": [
         {
           "duration": 0.14,
@@ -1745,14 +1761,14 @@
         }
       ],
       "start": 80.9,
-      "startOffset": 680,
+      "startOffset": 647,
       "word": "sight"
     },
     {
       "alignedWord": "they",
       "case": "success",
       "end": 81.42,
-      "endOffset": 690,
+      "endOffset": 657,
       "phones": [
         {
           "duration": 0.04,
@@ -1764,14 +1780,14 @@
         }
       ],
       "start": 81.27,
-      "startOffset": 686,
+      "startOffset": 653,
       "word": "they"
     },
     {
       "alignedWord": "multiply",
       "case": "success",
       "end": 82.14,
-      "endOffset": 699,
+      "endOffset": 666,
       "phones": [
         {
           "duration": 0.09,
@@ -1807,14 +1823,14 @@
         }
       ],
       "start": 81.42,
-      "startOffset": 691,
+      "startOffset": 658,
       "word": "multiply"
     },
     {
       "alignedWord": "in",
       "case": "success",
       "end": 82.41000000000001,
-      "endOffset": 703,
+      "endOffset": 670,
       "phones": [
         {
           "duration": 0.08,
@@ -1826,14 +1842,14 @@
         }
       ],
       "start": 82.26,
-      "startOffset": 701,
+      "startOffset": 668,
       "word": "In"
     },
     {
       "alignedWord": "matrix",
       "case": "success",
       "end": 82.95,
-      "endOffset": 710,
+      "endOffset": 677,
       "phones": [
         {
           "duration": 0.11,
@@ -1865,14 +1881,14 @@
         }
       ],
       "start": 82.42,
-      "startOffset": 704,
+      "startOffset": 671,
       "word": "matrix"
     },
     {
       "alignedWord": "walls",
       "case": "success",
       "end": 83.27,
-      "endOffset": 716,
+      "endOffset": 683,
       "phones": [
         {
           "duration": 0.06,
@@ -1892,14 +1908,14 @@
         }
       ],
       "start": 82.95,
-      "startOffset": 711,
+      "startOffset": 678,
       "word": "walls"
     },
     {
       "alignedWord": "they",
       "case": "success",
       "end": 83.42,
-      "endOffset": 721,
+      "endOffset": 688,
       "phones": [
         {
           "duration": 0.05,
@@ -1911,14 +1927,14 @@
         }
       ],
       "start": 83.27,
-      "startOffset": 717,
+      "startOffset": 684,
       "word": "they"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 83.83000000000001,
-      "endOffset": 729,
+      "endOffset": 696,
       "phones": [
         {
           "duration": 0.37,
@@ -1926,14 +1942,14 @@
         }
       ],
       "start": 83.46000000000001,
-      "startOffset": 722,
+      "startOffset": 689,
       "word": "fortify"
     },
     {
       "alignedWord": "each",
       "case": "success",
       "end": 84.42,
-      "endOffset": 735,
+      "endOffset": 702,
       "phones": [
         {
           "duration": 0.09,
@@ -1945,14 +1961,14 @@
         }
       ],
       "start": 84.23,
-      "startOffset": 731,
+      "startOffset": 698,
       "word": "Each"
     },
     {
       "alignedWord": "catheter",
       "case": "success",
       "end": 85.25999999999999,
-      "endOffset": 744,
+      "endOffset": 711,
       "phones": [
         {
           "duration": 0.12,
@@ -1980,14 +1996,14 @@
         }
       ],
       "start": 84.44,
-      "startOffset": 736,
+      "startOffset": 703,
       "word": "catheter"
     },
     {
       "alignedWord": "and",
       "case": "success",
       "end": 85.36999899999999,
-      "endOffset": 748,
+      "endOffset": 715,
       "phones": [
         {
           "duration": 0.05,
@@ -2003,14 +2019,14 @@
         }
       ],
       "start": 85.259999,
-      "startOffset": 745,
+      "startOffset": 712,
       "word": "and"
     },
     {
       "alignedWord": "line",
       "case": "success",
       "end": 85.779999,
-      "endOffset": 753,
+      "endOffset": 720,
       "phones": [
         {
           "duration": 0.12,
@@ -2026,14 +2042,14 @@
         }
       ],
       "start": 85.389999,
-      "startOffset": 749,
+      "startOffset": 716,
       "word": "line"
     },
     {
       "alignedWord": "deny",
       "case": "success",
       "end": 86.21000000000001,
-      "endOffset": 758,
+      "endOffset": 725,
       "phones": [
         {
           "duration": 0.05,
@@ -2053,14 +2069,14 @@
         }
       ],
       "start": 85.78,
-      "startOffset": 754,
+      "startOffset": 721,
       "word": "deny"
     },
     {
       "alignedWord": "their",
       "case": "success",
       "end": 86.41,
-      "endOffset": 765,
+      "endOffset": 732,
       "phones": [
         {
           "duration": 0.03,
@@ -2076,14 +2092,14 @@
         }
       ],
       "start": 86.28,
-      "startOffset": 760,
+      "startOffset": 727,
       "word": "Their"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 87.38000000000001,
-      "endOffset": 776,
+      "endOffset": 743,
       "phones": [
         {
           "duration": 0.93,
@@ -2091,14 +2107,14 @@
         }
       ],
       "start": 86.45,
-      "startOffset": 766,
+      "startOffset": 733,
       "word": "colonizing"
     },
     {
       "alignedWord": "battle",
       "case": "success",
       "end": 87.82000000000001,
-      "endOffset": 783,
+      "endOffset": 750,
       "phones": [
         {
           "duration": 0.1,
@@ -2122,14 +2138,14 @@
         }
       ],
       "start": 87.42,
-      "startOffset": 777,
+      "startOffset": 744,
       "word": "battle"
     },
     {
       "alignedWord": "cry",
       "case": "success",
       "end": 88.309999,
-      "endOffset": 787,
+      "endOffset": 754,
       "phones": [
         {
           "duration": 0.08,
@@ -2145,14 +2161,14 @@
         }
       ],
       "start": 87.839999,
-      "startOffset": 784,
+      "startOffset": 751,
       "word": "cry"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 89.179999,
-      "endOffset": 801,
+      "endOffset": 768,
       "phones": [
         {
           "duration": 0.82,
@@ -2160,38 +2176,38 @@
         }
       ],
       "start": 88.359999,
-      "startOffset": 790,
+      "startOffset": 757,
       "word": "Invisibilia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 810,
-      "startOffset": 802,
+      "endOffset": 777,
+      "startOffset": 769,
       "word": "vincimus"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 819,
-      "startOffset": 811,
+      "endOffset": 786,
+      "startOffset": 778,
       "word": "scientia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 825,
-      "startOffset": 823,
+      "endOffset": 792,
+      "startOffset": 790,
       "word": "In"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 838,
-      "startOffset": 826,
+      "endOffset": 805,
+      "startOffset": 793,
       "word": "persistentia"
     },
     {
       "alignedWord": "victoria",
       "case": "success",
       "end": 89.42,
-      "endOffset": 848,
+      "endOffset": 815,
       "phones": [
         {
           "duration": 0.01,
@@ -2227,14 +2243,14 @@
         }
       ],
       "start": 89.18,
-      "startOffset": 840,
+      "startOffset": 807,
       "word": "victoria"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 89.60000000000001,
-      "endOffset": 857,
+      "endOffset": 824,
       "phones": [
         {
           "duration": 0.12,
@@ -2242,14 +2258,14 @@
         }
       ],
       "start": 89.48,
-      "startOffset": 852,
+      "startOffset": 819,
       "word": "Signa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 94.99000000000001,
-      "endOffset": 866,
+      "endOffset": 833,
       "phones": [
         {
           "duration": 0.55,
@@ -2257,14 +2273,14 @@
         }
       ],
       "start": 94.44000000000001,
-      "startOffset": 858,
+      "startOffset": 825,
       "word": "sequimur"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 96.17000000000002,
-      "endOffset": 877,
+      "endOffset": 844,
       "phones": [
         {
           "duration": 0.91,
@@ -2272,14 +2288,14 @@
         }
       ],
       "start": 95.26,
-      "startOffset": 868,
+      "startOffset": 835,
       "word": "veritatem"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 97.2,
-      "endOffset": 887,
+      "endOffset": 854,
       "phones": [
         {
           "duration": 0.73,
@@ -2287,14 +2303,14 @@
         }
       ],
       "start": 96.47000000000001,
-      "startOffset": 878,
+      "startOffset": 845,
       "word": "quaerimus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 99.66000000000001,
-      "endOffset": 896,
+      "endOffset": 863,
       "phones": [
         {
           "duration": 1.2,
@@ -2302,14 +2318,14 @@
         }
       ],
       "start": 98.46000000000001,
-      "startOffset": 891,
+      "startOffset": 858,
       "word": "Manus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 101.44000000000001,
-      "endOffset": 903,
+      "endOffset": 870,
       "phones": [
         {
           "duration": 1.13,
@@ -2317,14 +2333,14 @@
         }
       ],
       "start": 100.31,
-      "startOffset": 897,
+      "startOffset": 864,
       "word": "mundae"
     },
     {
       "alignedWord": "mens",
       "case": "success",
       "end": 102.029999,
-      "endOffset": 909,
+      "endOffset": 876,
       "phones": [
         {
           "duration": 0.06,
@@ -2344,14 +2360,14 @@
         }
       ],
       "start": 101.779999,
-      "startOffset": 905,
+      "startOffset": 872,
       "word": "mens"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 102.34,
-      "endOffset": 917,
+      "endOffset": 884,
       "phones": [
         {
           "duration": 0.28,
@@ -2359,14 +2375,14 @@
         }
       ],
       "start": 102.06,
-      "startOffset": 910,
+      "startOffset": 877,
       "word": "attenta"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 102.609999,
-      "endOffset": 930,
+      "endOffset": 897,
       "phones": [
         {
           "duration": 0.2,
@@ -2374,14 +2390,14 @@
         }
       ],
       "start": 102.40999900000001,
-      "startOffset": 921,
+      "startOffset": 888,
       "word": "Sanitatis"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 102.95,
-      "endOffset": 939,
+      "endOffset": 906,
       "phones": [
         {
           "duration": 0.11,
@@ -2389,14 +2405,14 @@
         }
       ],
       "start": 102.84,
-      "startOffset": 931,
+      "startOffset": 898,
       "word": "custodes"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 105.01,
-      "endOffset": 945,
+      "endOffset": 912,
       "phones": [
         {
           "duration": 0.96,
@@ -2404,14 +2420,14 @@
         }
       ],
       "start": 104.05000000000001,
-      "startOffset": 940,
+      "startOffset": 907,
       "word": "sumus"
     },
     {
       "alignedWord": "when",
       "case": "success",
       "end": 110.08,
-      "endOffset": 952,
+      "endOffset": 919,
       "phones": [
         {
           "duration": 0.14,
@@ -2427,14 +2443,14 @@
         }
       ],
       "start": 109.69,
-      "startOffset": 948,
+      "startOffset": 915,
       "word": "When"
     },
     {
       "alignedWord": "vessels",
       "case": "success",
       "end": 110.61,
-      "endOffset": 960,
+      "endOffset": 927,
       "phones": [
         {
           "duration": 0.1,
@@ -2462,14 +2478,14 @@
         }
       ],
       "start": 110.1,
-      "startOffset": 953,
+      "startOffset": 920,
       "word": "vessels"
     },
     {
       "alignedWord": "empty",
       "case": "success",
       "end": 111.38,
-      "endOffset": 966,
+      "endOffset": 933,
       "phones": [
         {
           "duration": 0.12,
@@ -2489,14 +2505,14 @@
         }
       ],
       "start": 110.94,
-      "startOffset": 961,
+      "startOffset": 928,
       "word": "empty"
     },
     {
       "alignedWord": "stand",
       "case": "success",
       "end": 111.8,
-      "endOffset": 972,
+      "endOffset": 939,
       "phones": [
         {
           "duration": 0.07,
@@ -2520,14 +2536,14 @@
         }
       ],
       "start": 111.39,
-      "startOffset": 967,
+      "startOffset": 934,
       "word": "stand"
     },
     {
       "alignedWord": "in",
       "case": "success",
       "end": 111.92999999999999,
-      "endOffset": 975,
+      "endOffset": 942,
       "phones": [
         {
           "duration": 0.05,
@@ -2539,14 +2555,14 @@
         }
       ],
       "start": 111.8,
-      "startOffset": 973,
+      "startOffset": 940,
       "word": "in"
     },
     {
       "alignedWord": "shame",
       "case": "success",
       "end": 112.19000000000001,
-      "endOffset": 981,
+      "endOffset": 948,
       "phones": [
         {
           "duration": 0.24,
@@ -2562,14 +2578,14 @@
         }
       ],
       "start": 111.93,
-      "startOffset": 976,
+      "startOffset": 943,
       "word": "shame"
     },
     {
       "alignedWord": "let",
       "case": "success",
       "end": 112.74000000000001,
-      "endOffset": 986,
+      "endOffset": 953,
       "phones": [
         {
           "duration": 0.1,
@@ -2585,14 +2601,14 @@
         }
       ],
       "start": 112.48,
-      "startOffset": 983,
+      "startOffset": 950,
       "word": "Let"
     },
     {
       "alignedWord": "not",
       "case": "success",
       "end": 112.97,
-      "endOffset": 990,
+      "endOffset": 957,
       "phones": [
         {
           "duration": 0.06,
@@ -2608,14 +2624,14 @@
         }
       ],
       "start": 112.74,
-      "startOffset": 987,
+      "startOffset": 954,
       "word": "not"
     },
     {
       "alignedWord": "neglect",
       "case": "success",
       "end": 113.48,
-      "endOffset": 998,
+      "endOffset": 965,
       "phones": [
         {
           "duration": 0.07,
@@ -2647,14 +2663,14 @@
         }
       ],
       "start": 112.98,
-      "startOffset": 991,
+      "startOffset": 958,
       "word": "neglect"
     },
     {
       "alignedWord": "bring",
       "case": "success",
       "end": 113.74,
-      "endOffset": 1004,
+      "endOffset": 971,
       "phones": [
         {
           "duration": 0.08,
@@ -2674,14 +2690,14 @@
         }
       ],
       "start": 113.5,
-      "startOffset": 999,
+      "startOffset": 966,
       "word": "bring"
     },
     {
       "alignedWord": "us",
       "case": "success",
       "end": 113.99,
-      "endOffset": 1007,
+      "endOffset": 974,
       "phones": [
         {
           "duration": 0.15,
@@ -2693,94 +2709,94 @@
         }
       ],
       "start": 113.77,
-      "startOffset": 1005,
+      "startOffset": 972,
       "word": "us"
     },
     {
       "alignedWord": "to",
       "case": "success",
-      "end": 116.21,
-      "endOffset": 1010,
+      "end": 114.16,
+      "endOffset": 977,
       "phones": [
         {
-          "duration": 0.01,
+          "duration": 0.08,
           "phone": "t_B"
         },
         {
-          "duration": 0.01,
-          "phone": "ih_E"
+          "duration": 0.09,
+          "phone": "uw_E"
         }
       ],
-      "start": 116.19,
-      "startOffset": 1008,
+      "start": 113.99,
+      "startOffset": 975,
       "word": "to"
     },
     {
       "alignedWord": "blame",
       "case": "success",
-      "end": 116.26,
-      "endOffset": 1016,
+      "end": 114.95,
+      "endOffset": 983,
       "phones": [
         {
-          "duration": 0.02,
+          "duration": 0.09,
           "phone": "b_B"
         },
         {
-          "duration": 0.01,
+          "duration": 0.05,
           "phone": "l_I"
         },
         {
-          "duration": 0.01,
+          "duration": 0.45,
           "phone": "ey_I"
         },
         {
-          "duration": 0.01,
+          "duration": 0.2,
           "phone": "m_E"
         }
       ],
-      "start": 116.21000000000001,
-      "startOffset": 1011,
+      "start": 114.16,
+      "startOffset": 978,
       "word": "blame"
     },
     {
       "alignedWord": "the",
       "case": "success",
-      "end": 116.39,
-      "endOffset": 1021,
+      "end": 115.33,
+      "endOffset": 988,
       "phones": [
         {
-          "duration": 0.01,
+          "duration": 0.05,
           "phone": "dh_B"
         },
         {
-          "duration": 0.12,
+          "duration": 0.01,
           "phone": "ah_E"
         }
       ],
-      "start": 116.26,
-      "startOffset": 1018,
+      "start": 115.27,
+      "startOffset": 985,
       "word": "The"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 116.46000000000001,
-      "endOffset": 1033,
+      "end": 115.39999999999999,
+      "endOffset": 1000,
       "phones": [
         {
-          "duration": 0.01,
+          "duration": 0.07,
           "phone": "oov_S"
         }
       ],
-      "start": 116.45,
-      "startOffset": 1022,
+      "start": 115.33,
+      "startOffset": 989,
       "word": "sanitizer's"
     },
     {
       "alignedWord": "empty",
       "case": "success",
       "end": 116.87,
-      "endOffset": 1039,
+      "endOffset": 1006,
       "phones": [
         {
           "duration": 0.14,
@@ -2800,14 +2816,14 @@
         }
       ],
       "start": 116.46000000000001,
-      "startOffset": 1034,
+      "startOffset": 1001,
       "word": "empty"
     },
     {
       "alignedWord": "frame",
       "case": "success",
       "end": 117.26,
-      "endOffset": 1045,
+      "endOffset": 1012,
       "phones": [
         {
           "duration": 0.11,
@@ -2827,14 +2843,14 @@
         }
       ],
       "start": 116.87,
-      "startOffset": 1040,
+      "startOffset": 1007,
       "word": "frame"
     },
     {
       "alignedWord": "must",
       "case": "success",
       "end": 117.39999999999999,
-      "endOffset": 1051,
+      "endOffset": 1018,
       "phones": [
         {
           "duration": 0.02,
@@ -2854,14 +2870,14 @@
         }
       ],
       "start": 117.27,
-      "startOffset": 1047,
+      "startOffset": 1014,
       "word": "Must"
     },
     {
       "alignedWord": "swift",
       "case": "success",
       "end": 117.78999999999999,
-      "endOffset": 1057,
+      "endOffset": 1024,
       "phones": [
         {
           "duration": 0.11,
@@ -2885,14 +2901,14 @@
         }
       ],
       "start": 117.41,
-      "startOffset": 1052,
+      "startOffset": 1019,
       "word": "swift"
     },
     {
       "alignedWord": "attention",
       "case": "success",
       "end": 118.44999999999999,
-      "endOffset": 1067,
+      "endOffset": 1034,
       "phones": [
         {
           "duration": 0.07,
@@ -2924,14 +2940,14 @@
         }
       ],
       "start": 117.78999999999999,
-      "startOffset": 1058,
+      "startOffset": 1025,
       "word": "attention"
     },
     {
       "alignedWord": "now",
       "case": "success",
       "end": 118.73,
-      "endOffset": 1071,
+      "endOffset": 1038,
       "phones": [
         {
           "duration": 0.07,
@@ -2943,14 +2959,14 @@
         }
       ],
       "start": 118.45,
-      "startOffset": 1068,
+      "startOffset": 1035,
       "word": "now"
     },
     {
       "alignedWord": "reclaim",
       "case": "success",
       "end": 119.0,
-      "endOffset": 1079,
+      "endOffset": 1046,
       "phones": [
         {
           "duration": 0.07,
@@ -2978,14 +2994,14 @@
         }
       ],
       "start": 118.75,
-      "startOffset": 1072,
+      "startOffset": 1039,
       "word": "reclaim"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 119.07,
-      "endOffset": 1086,
+      "endOffset": 1053,
       "phones": [
         {
           "duration": 0.07,
@@ -2993,14 +3009,14 @@
         }
       ],
       "start": 119.0,
-      "startOffset": 1082,
+      "startOffset": 1049,
       "word": "Vasa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 119.08999999999999,
-      "endOffset": 1092,
+      "endOffset": 1059,
       "phones": [
         {
           "duration": 0.01,
@@ -3008,14 +3024,14 @@
         }
       ],
       "start": 119.08,
-      "startOffset": 1087,
+      "startOffset": 1054,
       "word": "vacua"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 121.44,
-      "endOffset": 1102,
+      "endOffset": 1069,
       "phones": [
         {
           "duration": 0.35,
@@ -3023,14 +3039,14 @@
         }
       ],
       "start": 121.09,
-      "startOffset": 1094,
+      "startOffset": 1061,
       "word": "pericula"
     },
     {
       "alignedWord": "vera",
       "case": "success",
       "end": 122.86,
-      "endOffset": 1107,
+      "endOffset": 1074,
       "phones": [
         {
           "duration": 0.01,
@@ -3050,56 +3066,56 @@
         }
       ],
       "start": 122.48,
-      "startOffset": 1103,
+      "startOffset": 1070,
       "word": "vera"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1120,
-      "startOffset": 1111,
+      "endOffset": 1087,
+      "startOffset": 1078,
       "word": "Repleatur"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1125,
-      "startOffset": 1121,
+      "endOffset": 1092,
+      "startOffset": 1088,
       "word": "sine"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 125.24,
-      "endOffset": 1130,
+      "end": 125.23,
+      "endOffset": 1097,
       "phones": [
         {
-          "duration": 0.79,
+          "duration": 0.39,
           "phone": "oov_S"
         }
       ],
-      "start": 124.45,
-      "startOffset": 1126,
+      "start": 124.84,
+      "startOffset": 1093,
       "word": "mora"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 130.22,
-      "endOffset": 1139,
+      "end": 130.21,
+      "endOffset": 1106,
       "phones": [
         {
-          "duration": 0.71,
+          "duration": 0.7,
           "phone": "oov_S"
         }
       ],
       "start": 129.51,
-      "startOffset": 1134,
+      "startOffset": 1101,
       "word": "Signa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 136.75,
-      "endOffset": 1148,
+      "endOffset": 1115,
       "phones": [
         {
           "duration": 0.24,
@@ -3107,29 +3123,29 @@
         }
       ],
       "start": 136.51,
-      "startOffset": 1140,
+      "startOffset": 1107,
       "word": "sequimur"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 137.09,
-      "endOffset": 1159,
+      "end": 136.98,
+      "endOffset": 1126,
       "phones": [
         {
-          "duration": 0.31,
+          "duration": 0.2,
           "phone": "oov_S"
         }
       ],
       "start": 136.78,
-      "startOffset": 1150,
+      "startOffset": 1117,
       "word": "veritatem"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 137.4,
-      "endOffset": 1169,
+      "endOffset": 1136,
       "phones": [
         {
           "duration": 0.13,
@@ -3137,14 +3153,14 @@
         }
       ],
       "start": 137.27,
-      "startOffset": 1160,
+      "startOffset": 1127,
       "word": "quaerimus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 137.989999,
-      "endOffset": 1178,
+      "endOffset": 1145,
       "phones": [
         {
           "duration": 0.16,
@@ -3152,14 +3168,14 @@
         }
       ],
       "start": 137.829999,
-      "startOffset": 1173,
+      "startOffset": 1140,
       "word": "Manus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 146.619999,
-      "endOffset": 1185,
+      "endOffset": 1152,
       "phones": [
         {
           "duration": 0.21,
@@ -3167,14 +3183,14 @@
         }
       ],
       "start": 146.409999,
-      "startOffset": 1179,
+      "startOffset": 1146,
       "word": "mundae"
     },
     {
       "alignedWord": "mens",
       "case": "success",
       "end": 146.83,
-      "endOffset": 1191,
+      "endOffset": 1158,
       "phones": [
         {
           "duration": 0.01,
@@ -3194,14 +3210,14 @@
         }
       ],
       "start": 146.62,
-      "startOffset": 1187,
+      "startOffset": 1154,
       "word": "mens"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 147.39,
-      "endOffset": 1199,
+      "endOffset": 1166,
       "phones": [
         {
           "duration": 0.11,
@@ -3209,14 +3225,14 @@
         }
       ],
       "start": 147.28,
-      "startOffset": 1192,
+      "startOffset": 1159,
       "word": "attenta"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 148.999999,
-      "endOffset": 1212,
+      "endOffset": 1179,
       "phones": [
         {
           "duration": 0.95,
@@ -3224,47 +3240,47 @@
         }
       ],
       "start": 148.049999,
-      "startOffset": 1203,
+      "startOffset": 1170,
       "word": "Sanitatis"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 150.009999,
-      "endOffset": 1221,
+      "end": 149.549999,
+      "endOffset": 1188,
       "phones": [
         {
-          "duration": 0.94,
+          "duration": 0.48,
           "phone": "oov_S"
         }
       ],
       "start": 149.069999,
-      "startOffset": 1213,
+      "startOffset": 1180,
       "word": "custodes"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 151.72,
-      "endOffset": 1227,
+      "end": 151.39000000000001,
+      "endOffset": 1194,
       "phones": [
         {
-          "duration": 0.01,
+          "duration": 1.62,
           "phone": "oov_S"
         }
       ],
-      "start": 151.71,
-      "startOffset": 1222,
+      "start": 149.77,
+      "startOffset": 1189,
       "word": "sumus"
     },
     {
       "alignedWord": "while",
       "case": "success",
       "end": 152.07,
-      "endOffset": 1235,
+      "endOffset": 1202,
       "phones": [
         {
-          "duration": 0.16,
+          "duration": 0.17,
           "phone": "w_B"
         },
         {
@@ -3276,15 +3292,15 @@
           "phone": "l_E"
         }
       ],
-      "start": 151.73,
-      "startOffset": 1230,
+      "start": 151.72,
+      "startOffset": 1197,
       "word": "While"
     },
     {
       "alignedWord": "waters",
       "case": "success",
       "end": 152.85000000000002,
-      "endOffset": 1242,
+      "endOffset": 1209,
       "phones": [
         {
           "duration": 0.12,
@@ -3308,14 +3324,14 @@
         }
       ],
       "start": 152.08,
-      "startOffset": 1236,
+      "startOffset": 1203,
       "word": "waters"
     },
     {
       "alignedWord": "flow",
       "case": "success",
       "end": 153.14000000000001,
-      "endOffset": 1247,
+      "endOffset": 1214,
       "phones": [
         {
           "duration": 0.07,
@@ -3331,14 +3347,14 @@
         }
       ],
       "start": 152.86,
-      "startOffset": 1243,
+      "startOffset": 1210,
       "word": "flow"
     },
     {
       "alignedWord": "across",
       "case": "success",
       "end": 153.719999,
-      "endOffset": 1254,
+      "endOffset": 1221,
       "phones": [
         {
           "duration": 0.07,
@@ -3362,14 +3378,14 @@
         }
       ],
       "start": 153.139999,
-      "startOffset": 1248,
+      "startOffset": 1215,
       "word": "across"
     },
     {
       "alignedWord": "our",
       "case": "success",
       "end": 153.739999,
-      "endOffset": 1258,
+      "endOffset": 1225,
       "phones": [
         {
           "duration": 0.01,
@@ -3381,14 +3397,14 @@
         }
       ],
       "start": 153.719999,
-      "startOffset": 1255,
+      "startOffset": 1222,
       "word": "our"
     },
     {
       "alignedWord": "hands",
       "case": "success",
       "end": 154.26000000000002,
-      "endOffset": 1264,
+      "endOffset": 1231,
       "phones": [
         {
           "duration": 0.11,
@@ -3408,14 +3424,14 @@
         }
       ],
       "start": 153.9,
-      "startOffset": 1259,
+      "startOffset": 1226,
       "word": "hands"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 154.44,
-      "endOffset": 1268,
+      "endOffset": 1235,
       "phones": [
         {
           "duration": 0.06,
@@ -3427,14 +3443,14 @@
         }
       ],
       "start": 154.3,
-      "startOffset": 1266,
+      "startOffset": 1233,
       "word": "We"
     },
     {
       "alignedWord": "contemplate",
       "case": "success",
       "end": 155.2,
-      "endOffset": 1280,
+      "endOffset": 1247,
       "phones": [
         {
           "duration": 0.11,
@@ -3478,14 +3494,14 @@
         }
       ],
       "start": 154.44,
-      "startOffset": 1269,
+      "startOffset": 1236,
       "word": "contemplate"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 155.39,
-      "endOffset": 1292,
+      "endOffset": 1259,
       "phones": [
         {
           "duration": 0.16,
@@ -3493,14 +3509,14 @@
         }
       ],
       "start": 155.23,
-      "startOffset": 1281,
+      "startOffset": 1248,
       "word": "infection's"
     },
     {
       "alignedWord": "strands",
       "case": "success",
       "end": 156.319999,
-      "endOffset": 1300,
+      "endOffset": 1267,
       "phones": [
         {
           "duration": 0.07,
@@ -3532,14 +3548,14 @@
         }
       ],
       "start": 155.849999,
-      "startOffset": 1293,
+      "startOffset": 1260,
       "word": "strands"
     },
     {
       "alignedWord": "each",
       "case": "success",
       "end": 156.47,
-      "endOffset": 1306,
+      "endOffset": 1273,
       "phones": [
         {
           "duration": 0.07,
@@ -3551,14 +3567,14 @@
         }
       ],
       "start": 156.32,
-      "startOffset": 1302,
+      "startOffset": 1269,
       "word": "Each"
     },
     {
       "alignedWord": "patient's",
       "case": "success",
       "end": 156.939999,
-      "endOffset": 1316,
+      "endOffset": 1283,
       "phones": [
         {
           "duration": 0.09,
@@ -3590,14 +3606,14 @@
         }
       ],
       "start": 156.469999,
-      "startOffset": 1307,
+      "startOffset": 1274,
       "word": "patient's"
     },
     {
       "alignedWord": "risk",
       "case": "success",
       "end": 157.29,
-      "endOffset": 1321,
+      "endOffset": 1288,
       "phones": [
         {
           "duration": 0.11,
@@ -3617,14 +3633,14 @@
         }
       ],
       "start": 156.94,
-      "startOffset": 1317,
+      "startOffset": 1284,
       "word": "risk"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 157.45999999999998,
-      "endOffset": 1324,
+      "endOffset": 1291,
       "phones": [
         {
           "duration": 0.06,
@@ -3636,14 +3652,14 @@
         }
       ],
       "start": 157.29,
-      "startOffset": 1322,
+      "startOffset": 1289,
       "word": "we"
     },
     {
       "alignedWord": "understand",
       "case": "success",
       "end": 158.24,
-      "endOffset": 1335,
+      "endOffset": 1302,
       "phones": [
         {
           "duration": 0.08,
@@ -3683,14 +3699,14 @@
         }
       ],
       "start": 157.49,
-      "startOffset": 1325,
+      "startOffset": 1292,
       "word": "understand"
     },
     {
       "alignedWord": "as",
       "case": "success",
       "end": 158.35000000000002,
-      "endOffset": 1339,
+      "endOffset": 1306,
       "phones": [
         {
           "duration": 0.07,
@@ -3702,14 +3718,14 @@
         }
       ],
       "start": 158.24,
-      "startOffset": 1337,
+      "startOffset": 1304,
       "word": "As"
     },
     {
       "alignedWord": "tubes",
       "case": "success",
       "end": 158.78,
-      "endOffset": 1345,
+      "endOffset": 1312,
       "phones": [
         {
           "duration": 0.14,
@@ -3729,14 +3745,14 @@
         }
       ],
       "start": 158.41,
-      "startOffset": 1340,
+      "startOffset": 1307,
       "word": "tubes"
     },
     {
       "alignedWord": "and",
       "case": "success",
       "end": 158.85,
-      "endOffset": 1349,
+      "endOffset": 1316,
       "phones": [
         {
           "duration": 0.05,
@@ -3752,14 +3768,14 @@
         }
       ],
       "start": 158.78,
-      "startOffset": 1346,
+      "startOffset": 1313,
       "word": "and"
     },
     {
       "alignedWord": "lines",
       "case": "success",
       "end": 159.289999,
-      "endOffset": 1355,
+      "endOffset": 1322,
       "phones": [
         {
           "duration": 0.01,
@@ -3779,14 +3795,14 @@
         }
       ],
       "start": 158.849999,
-      "startOffset": 1350,
+      "startOffset": 1317,
       "word": "lines"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 159.44,
-      "endOffset": 1358,
+      "endOffset": 1325,
       "phones": [
         {
           "duration": 0.07,
@@ -3798,14 +3814,14 @@
         }
       ],
       "start": 159.29,
-      "startOffset": 1356,
+      "startOffset": 1323,
       "word": "we"
     },
     {
       "alignedWord": "wisely",
       "case": "success",
       "end": 160.0,
-      "endOffset": 1365,
+      "endOffset": 1332,
       "phones": [
         {
           "duration": 0.11,
@@ -3829,14 +3845,14 @@
         }
       ],
       "start": 159.44,
-      "startOffset": 1359,
+      "startOffset": 1326,
       "word": "wisely"
     },
     {
       "alignedWord": "scan",
       "case": "success",
       "end": 160.20999999999998,
-      "endOffset": 1370,
+      "endOffset": 1337,
       "phones": [
         {
           "duration": 0.1,
@@ -3856,216 +3872,180 @@
         }
       ],
       "start": 160.01,
-      "startOffset": 1366,
+      "startOffset": 1333,
       "word": "scan"
-    },
-    {
-      "alignedWord": "mens",
-      "case": "success",
-      "end": 160.249999,
-      "endOffset": 1377,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "m_B"
-        },
-        {
-          "duration": 0.01,
-          "phone": "eh_I"
-        },
-        {
-          "duration": 0.01,
-          "phone": "n_I"
-        },
-        {
-          "duration": 0.01,
-          "phone": "z_E"
-        }
-      ],
-      "start": 160.209999,
-      "startOffset": 1373,
-      "word": "Mens"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 160.26,
-      "endOffset": 1387,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 160.25,
-      "startOffset": 1378,
-      "word": "intentiva"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1393,
-      "startOffset": 1389,
-      "word": "cura"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1404,
-      "startOffset": 1394,
-      "word": "preventiva"
     },
     {
       "alignedWord": "in",
       "case": "success",
-      "end": 161.29999999999998,
-      "endOffset": 1410,
+      "end": 161.309999,
+      "endOffset": 1342,
       "phones": [
         {
           "duration": 0.13,
           "phone": "ih_B"
         },
         {
-          "duration": 0.11,
+          "duration": 0.12,
           "phone": "n_E"
         }
       ],
-      "start": 161.06,
-      "startOffset": 1408,
+      "start": 161.059999,
+      "startOffset": 1340,
       "word": "In"
     },
     {
-      "case": "not-found-in-audio",
-      "endOffset": 1420,
-      "startOffset": 1411,
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 161.959999,
+      "endOffset": 1352,
+      "phones": [
+        {
+          "duration": 0.5,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 161.459999,
+      "startOffset": 1343,
       "word": "sapientia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1431,
-      "startOffset": 1422,
+      "endOffset": 1363,
+      "startOffset": 1354,
       "word": "prudentia"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1440,
-      "startOffset": 1435,
+      "endOffset": 1372,
+      "startOffset": 1367,
       "word": "Signa"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1449,
-      "startOffset": 1441,
+      "endOffset": 1381,
+      "startOffset": 1373,
       "word": "sequimur"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1460,
-      "startOffset": 1451,
+      "endOffset": 1392,
+      "startOffset": 1383,
       "word": "veritatem"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 1470,
-      "startOffset": 1461,
+      "endOffset": 1402,
+      "startOffset": 1393,
       "word": "quaerimus"
     },
     {
-      "case": "not-found-in-audio",
-      "endOffset": 1479,
-      "startOffset": 1474,
-      "word": "Manus"
-    },
-    {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 161.95999999999998,
-      "endOffset": 1486,
-      "phones": [
-        {
-          "duration": 0.52,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 161.44,
-      "startOffset": 1480,
-      "word": "mundae"
-    },
-    {
-      "alignedWord": "mens",
-      "case": "success",
-      "end": 162.2,
-      "endOffset": 1492,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "m_B"
-        },
-        {
-          "duration": 0.12,
-          "phone": "eh_I"
-        },
-        {
-          "duration": 0.07,
-          "phone": "n_I"
-        },
-        {
-          "duration": 0.04,
-          "phone": "z_E"
-        }
-      ],
-      "start": 161.95999999999998,
-      "startOffset": 1488,
-      "word": "mens"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 166.01999999999998,
-      "endOffset": 1500,
+      "end": 166.019999,
+      "endOffset": 1411,
       "phones": [
         {
           "duration": 0.51,
           "phone": "oov_S"
         }
       ],
-      "start": 165.51,
-      "startOffset": 1493,
+      "start": 165.509999,
+      "startOffset": 1406,
+      "word": "Manus"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 166.239999,
+      "endOffset": 1418,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 166.069999,
+      "startOffset": 1412,
+      "word": "mundae"
+    },
+    {
+      "alignedWord": "mens",
+      "case": "success",
+      "end": 167.979999,
+      "endOffset": 1424,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "z_E"
+        }
+      ],
+      "start": 167.709999,
+      "startOffset": 1420,
+      "word": "mens"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 168.66999900000002,
+      "endOffset": 1432,
+      "phones": [
+        {
+          "duration": 0.67,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 167.999999,
+      "startOffset": 1425,
       "word": "attenta"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 166.23999999999998,
-      "endOffset": 1513,
+      "end": 170.039999,
+      "endOffset": 1445,
       "phones": [
         {
-          "duration": 0.17,
+          "duration": 0.73,
           "phone": "oov_S"
         }
       ],
-      "start": 166.07,
-      "startOffset": 1504,
+      "start": 169.309999,
+      "startOffset": 1436,
       "word": "Sanitatis"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 167.88,
-      "endOffset": 1522,
+      "end": 171.32999900000002,
+      "endOffset": 1454,
       "phones": [
         {
-          "duration": 0.17,
+          "duration": 0.26,
           "phone": "oov_S"
         }
       ],
-      "start": 167.70999999999998,
-      "startOffset": 1514,
+      "start": 171.069999,
+      "startOffset": 1446,
       "word": "custodes"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 178.06,
-      "endOffset": 1528,
+      "endOffset": 1460,
       "phones": [
         {
           "duration": 0.08,
@@ -4073,14 +4053,14 @@
         }
       ],
       "start": 177.98,
-      "startOffset": 1523,
+      "startOffset": 1455,
       "word": "sumus"
     },
     {
       "alignedWord": "don",
       "case": "success",
       "end": 179.10999999999999,
-      "endOffset": 1534,
+      "endOffset": 1466,
       "phones": [
         {
           "duration": 0.11,
@@ -4096,14 +4076,14 @@
         }
       ],
       "start": 178.73,
-      "startOffset": 1531,
+      "startOffset": 1463,
       "word": "Don"
     },
     {
       "alignedWord": "the",
       "case": "success",
       "end": 179.259999,
-      "endOffset": 1538,
+      "endOffset": 1470,
       "phones": [
         {
           "duration": 0.05,
@@ -4115,14 +4095,14 @@
         }
       ],
       "start": 179.109999,
-      "startOffset": 1535,
+      "startOffset": 1467,
       "word": "the"
     },
     {
       "alignedWord": "gown",
       "case": "success",
       "end": 179.80999899999998,
-      "endOffset": 1543,
+      "endOffset": 1475,
       "phones": [
         {
           "duration": 0.01,
@@ -4138,14 +4118,14 @@
         }
       ],
       "start": 179.639999,
-      "startOffset": 1539,
+      "startOffset": 1471,
       "word": "gown"
     },
     {
       "alignedWord": "and",
       "case": "success",
       "end": 179.949999,
-      "endOffset": 1547,
+      "endOffset": 1479,
       "phones": [
         {
           "duration": 0.05,
@@ -4161,14 +4141,14 @@
         }
       ],
       "start": 179.809999,
-      "startOffset": 1544,
+      "startOffset": 1476,
       "word": "and"
     },
     {
       "alignedWord": "mask",
       "case": "success",
       "end": 180.279999,
-      "endOffset": 1552,
+      "endOffset": 1484,
       "phones": [
         {
           "duration": 0.07,
@@ -4188,14 +4168,14 @@
         }
       ],
       "start": 179.949999,
-      "startOffset": 1548,
+      "startOffset": 1480,
       "word": "mask"
     },
     {
       "alignedWord": "with",
       "case": "success",
       "end": 180.429999,
-      "endOffset": 1557,
+      "endOffset": 1489,
       "phones": [
         {
           "duration": 0.04,
@@ -4211,14 +4191,14 @@
         }
       ],
       "start": 180.279999,
-      "startOffset": 1553,
+      "startOffset": 1485,
       "word": "with"
     },
     {
       "alignedWord": "care",
       "case": "success",
       "end": 180.76999999999998,
-      "endOffset": 1562,
+      "endOffset": 1494,
       "phones": [
         {
           "duration": 0.12,
@@ -4234,14 +4214,14 @@
         }
       ],
       "start": 180.45,
-      "startOffset": 1558,
+      "startOffset": 1490,
       "word": "care"
     },
     {
       "alignedWord": "for",
       "case": "success",
       "end": 180.94,
-      "endOffset": 1567,
+      "endOffset": 1499,
       "phones": [
         {
           "duration": 0.06,
@@ -4253,14 +4233,14 @@
         }
       ],
       "start": 180.77,
-      "startOffset": 1564,
+      "startOffset": 1496,
       "word": "For"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 181.17,
-      "endOffset": 1575,
+      "endOffset": 1507,
       "phones": [
         {
           "duration": 0.22,
@@ -4268,14 +4248,14 @@
         }
       ],
       "start": 180.95,
-      "startOffset": 1568,
+      "startOffset": 1500,
       "word": "droplet"
     },
     {
       "alignedWord": "contact",
       "case": "success",
       "end": 182.01000000000002,
-      "endOffset": 1584,
+      "endOffset": 1516,
       "phones": [
         {
           "duration": 0.11,
@@ -4307,14 +4287,14 @@
         }
       ],
       "start": 181.43,
-      "startOffset": 1577,
+      "startOffset": 1509,
       "word": "contact"
     },
     {
       "alignedWord": "and",
       "case": "success",
       "end": 182.25,
-      "endOffset": 1589,
+      "endOffset": 1521,
       "phones": [
         {
           "duration": 0.14,
@@ -4330,14 +4310,14 @@
         }
       ],
       "start": 182.03,
-      "startOffset": 1586,
+      "startOffset": 1518,
       "word": "and"
     },
     {
       "alignedWord": "the",
       "case": "success",
       "end": 182.42,
-      "endOffset": 1593,
+      "endOffset": 1525,
       "phones": [
         {
           "duration": 0.05,
@@ -4349,14 +4329,14 @@
         }
       ],
       "start": 182.25,
-      "startOffset": 1590,
+      "startOffset": 1522,
       "word": "the"
     },
     {
       "alignedWord": "air",
       "case": "success",
       "end": 182.70000000000002,
-      "endOffset": 1597,
+      "endOffset": 1529,
       "phones": [
         {
           "duration": 0.14,
@@ -4368,14 +4348,14 @@
         }
       ],
       "start": 182.46,
-      "startOffset": 1594,
+      "startOffset": 1526,
       "word": "air"
     },
     {
       "alignedWord": "standard",
       "case": "success",
       "end": 183.15,
-      "endOffset": 1607,
+      "endOffset": 1539,
       "phones": [
         {
           "duration": 0.06,
@@ -4407,14 +4387,14 @@
         }
       ],
       "start": 182.71,
-      "startOffset": 1599,
+      "startOffset": 1531,
       "word": "Standard"
     },
     {
       "alignedWord": "precautions",
       "case": "success",
       "end": 183.93,
-      "endOffset": 1619,
+      "endOffset": 1551,
       "phones": [
         {
           "duration": 0.04,
@@ -4454,14 +4434,14 @@
         }
       ],
       "start": 183.22,
-      "startOffset": 1608,
+      "startOffset": 1540,
       "word": "precautions"
     },
     {
       "alignedWord": "everywhere",
       "case": "success",
       "end": 184.76,
-      "endOffset": 1630,
+      "endOffset": 1562,
       "phones": [
         {
           "duration": 0.12,
@@ -4493,14 +4473,14 @@
         }
       ],
       "start": 183.98,
-      "startOffset": 1620,
+      "startOffset": 1552,
       "word": "everywhere"
     },
     {
       "alignedWord": "each",
       "case": "success",
       "end": 185.05,
-      "endOffset": 1636,
+      "endOffset": 1568,
       "phones": [
         {
           "duration": 0.15,
@@ -4512,14 +4492,14 @@
         }
       ],
       "start": 184.77,
-      "startOffset": 1632,
+      "startOffset": 1564,
       "word": "Each"
     },
     {
       "alignedWord": "barrier",
       "case": "success",
       "end": 185.7,
-      "endOffset": 1644,
+      "endOffset": 1576,
       "phones": [
         {
           "duration": 0.1,
@@ -4543,14 +4523,14 @@
         }
       ],
       "start": 185.07,
-      "startOffset": 1637,
+      "startOffset": 1569,
       "word": "barrier"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 185.89999999999998,
-      "endOffset": 1647,
+      "endOffset": 1579,
       "phones": [
         {
           "duration": 0.11,
@@ -4562,14 +4542,14 @@
         }
       ],
       "start": 185.7,
-      "startOffset": 1645,
+      "startOffset": 1577,
       "word": "we"
     },
     {
       "alignedWord": "must",
       "case": "success",
       "end": 186.20000000000002,
-      "endOffset": 1652,
+      "endOffset": 1584,
       "phones": [
         {
           "duration": 0.08,
@@ -4589,14 +4569,14 @@
         }
       ],
       "start": 185.9,
-      "startOffset": 1648,
+      "startOffset": 1580,
       "word": "must"
     },
     {
       "alignedWord": "prepare",
       "case": "success",
       "end": 186.48999999999998,
-      "endOffset": 1660,
+      "endOffset": 1592,
       "phones": [
         {
           "duration": 0.05,
@@ -4624,14 +4604,14 @@
         }
       ],
       "start": 186.2,
-      "startOffset": 1653,
+      "startOffset": 1585,
       "word": "prepare"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 189.08,
-      "endOffset": 1668,
+      "endOffset": 1601,
       "phones": [
         {
           "duration": 1.0,
@@ -4639,14 +4619,14 @@
         }
       ],
       "start": 188.08,
-      "startOffset": 1663,
-      "word": "Signa"
+      "startOffset": 1595,
+      "word": "Melius"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 190.07000000000002,
-      "endOffset": 1674,
+      "endOffset": 1612,
       "phones": [
         {
           "duration": 0.33,
@@ -4654,56 +4634,14 @@
         }
       ],
       "start": 189.74,
-      "startOffset": 1669,
-      "word": "dubia"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1685,
-      "startOffset": 1676,
-      "word": "protectio"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1691,
-      "startOffset": 1686,
-      "word": "certa"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1701,
-      "startOffset": 1695,
-      "word": "Melius"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1712,
-      "startOffset": 1702,
+      "startOffset": 1602,
       "word": "praevenire"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1717,
-      "startOffset": 1713,
-      "word": "quam"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1727,
-      "startOffset": 1718,
-      "word": "poenitere"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1736,
-      "startOffset": 1731,
-      "word": "Signa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 190.08,
-      "endOffset": 1745,
+      "endOffset": 1617,
       "phones": [
         {
           "duration": 0.01,
@@ -4711,29 +4649,29 @@
         }
       ],
       "start": 190.07000000000002,
-      "startOffset": 1737,
-      "word": "sequimur"
+      "startOffset": 1613,
+      "word": "quam"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 191.05,
-      "endOffset": 1756,
+      "end": 190.77,
+      "endOffset": 1627,
       "phones": [
         {
-          "duration": 0.56,
+          "duration": 0.28,
           "phone": "oov_S"
         }
       ],
       "start": 190.49,
-      "startOffset": 1747,
-      "word": "veritatem"
+      "startOffset": 1618,
+      "word": "poenitere"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 192.03000000000003,
-      "endOffset": 1766,
+      "endOffset": 1636,
       "phones": [
         {
           "duration": 0.57,
@@ -4741,29 +4679,44 @@
         }
       ],
       "start": 191.46,
-      "startOffset": 1757,
-      "word": "quaerimus"
+      "startOffset": 1631,
+      "word": "Signa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
-      "end": 194.70000000000002,
-      "endOffset": 1775,
+      "end": 192.44000000000003,
+      "endOffset": 1645,
       "phones": [
         {
-          "duration": 1.23,
+          "duration": 0.15,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 192.29000000000002,
+      "startOffset": 1637,
+      "word": "sequimur"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 194.69000000000003,
+      "endOffset": 1656,
+      "phones": [
+        {
+          "duration": 1.22,
           "phone": "oov_S"
         }
       ],
       "start": 193.47000000000003,
-      "startOffset": 1770,
-      "word": "Manus"
+      "startOffset": 1647,
+      "word": "veritatem"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 196.42000000000002,
-      "endOffset": 1782,
+      "endOffset": 1666,
       "phones": [
         {
           "duration": 1.12,
@@ -4771,59 +4724,62 @@
         }
       ],
       "start": 195.3,
-      "startOffset": 1776,
+      "startOffset": 1657,
+      "word": "quaerimus"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 1675,
+      "startOffset": 1670,
+      "word": "Manus"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 197.32999900000002,
+      "endOffset": 1682,
+      "phones": [
+        {
+          "duration": 0.27,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 197.059999,
+      "startOffset": 1676,
       "word": "mundae"
     },
     {
       "alignedWord": "mens",
       "case": "success",
-      "end": 197.04000000000002,
-      "endOffset": 1788,
+      "end": 197.839999,
+      "endOffset": 1688,
       "phones": [
         {
-          "duration": 0.05,
+          "duration": 0.01,
           "phone": "m_B"
         },
         {
-          "duration": 0.09,
+          "duration": 0.01,
           "phone": "eh_I"
         },
         {
-          "duration": 0.06,
+          "duration": 0.12,
           "phone": "n_I"
         },
         {
-          "duration": 0.05,
+          "duration": 0.08,
           "phone": "z_E"
         }
       ],
-      "start": 196.79000000000002,
-      "startOffset": 1784,
+      "start": 197.619999,
+      "startOffset": 1684,
       "word": "mens"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1796,
-      "startOffset": 1789,
-      "word": "attenta"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1809,
-      "startOffset": 1800,
-      "word": "Sanitatis"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 1818,
-      "startOffset": 1810,
-      "word": "custodes"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 198.06,
-      "endOffset": 1824,
+      "endOffset": 1696,
       "phones": [
         {
           "duration": 0.21,
@@ -4831,14 +4787,14 @@
         }
       ],
       "start": 197.85,
-      "startOffset": 1819,
-      "word": "sumus"
+      "startOffset": 1689,
+      "word": "attenta"
     },
     {
       "alignedWord": "with",
       "case": "success",
       "end": 199.01,
-      "endOffset": 1831,
+      "endOffset": 1703,
       "phones": [
         {
           "duration": 0.12,
@@ -4854,14 +4810,14 @@
         }
       ],
       "start": 198.72,
-      "startOffset": 1827,
+      "startOffset": 1699,
       "word": "With"
     },
     {
       "alignedWord": "kindness",
       "case": "success",
       "end": 199.17999999999998,
-      "endOffset": 1840,
+      "endOffset": 1712,
       "phones": [
         {
           "duration": 0.08,
@@ -4893,14 +4849,14 @@
         }
       ],
       "start": 199.04,
-      "startOffset": 1832,
+      "startOffset": 1704,
       "word": "kindness"
     },
     {
       "alignedWord": "do",
       "case": "success",
       "end": 200.09,
-      "endOffset": 1843,
+      "endOffset": 1715,
       "phones": [
         {
           "duration": 0.1,
@@ -4912,14 +4868,14 @@
         }
       ],
       "start": 199.91,
-      "startOffset": 1841,
+      "startOffset": 1713,
       "word": "do"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 200.4,
-      "endOffset": 1846,
+      "endOffset": 1718,
       "phones": [
         {
           "duration": 0.1,
@@ -4931,14 +4887,14 @@
         }
       ],
       "start": 200.09,
-      "startOffset": 1844,
+      "startOffset": 1716,
       "word": "we"
     },
     {
       "alignedWord": "guide",
       "case": "success",
       "end": 200.82,
-      "endOffset": 1852,
+      "endOffset": 1724,
       "phones": [
         {
           "duration": 0.13,
@@ -4954,14 +4910,14 @@
         }
       ],
       "start": 200.42,
-      "startOffset": 1847,
+      "startOffset": 1719,
       "word": "guide"
     },
     {
       "alignedWord": "the",
       "case": "success",
       "end": 200.92,
-      "endOffset": 1856,
+      "endOffset": 1728,
       "phones": [
         {
           "duration": 0.03,
@@ -4973,14 +4929,14 @@
         }
       ],
       "start": 200.82,
-      "startOffset": 1853,
+      "startOffset": 1725,
       "word": "the"
     },
     {
       "alignedWord": "way",
       "case": "success",
       "end": 201.23,
-      "endOffset": 1860,
+      "endOffset": 1732,
       "phones": [
         {
           "duration": 0.16,
@@ -4992,14 +4948,14 @@
         }
       ],
       "start": 200.92,
-      "startOffset": 1857,
+      "startOffset": 1729,
       "word": "way"
     },
     {
       "alignedWord": "when",
       "case": "success",
       "end": 201.39999999999998,
-      "endOffset": 1866,
+      "endOffset": 1738,
       "phones": [
         {
           "duration": 0.06,
@@ -5015,14 +4971,14 @@
         }
       ],
       "start": 201.23,
-      "startOffset": 1862,
+      "startOffset": 1734,
       "word": "When"
     },
     {
       "alignedWord": "protocols",
       "case": "success",
       "end": 202.09,
-      "endOffset": 1876,
+      "endOffset": 1748,
       "phones": [
         {
           "duration": 0.04,
@@ -5062,14 +5018,14 @@
         }
       ],
       "start": 201.44,
-      "startOffset": 1867,
+      "startOffset": 1739,
       "word": "protocols"
     },
     {
       "alignedWord": "begin",
       "case": "success",
       "end": 202.8,
-      "endOffset": 1882,
+      "endOffset": 1754,
       "phones": [
         {
           "duration": 0.08,
@@ -5093,14 +5049,14 @@
         }
       ],
       "start": 202.11,
-      "startOffset": 1877,
+      "startOffset": 1749,
       "word": "begin"
     },
     {
       "alignedWord": "to",
       "case": "success",
       "end": 202.83,
-      "endOffset": 1885,
+      "endOffset": 1757,
       "phones": [
         {
           "duration": 0.01,
@@ -5112,14 +5068,14 @@
         }
       ],
       "start": 202.81,
-      "startOffset": 1883,
+      "startOffset": 1755,
       "word": "to"
     },
     {
       "alignedWord": "stray",
       "case": "success",
       "end": 203.22,
-      "endOffset": 1891,
+      "endOffset": 1763,
       "phones": [
         {
           "duration": 0.07,
@@ -5139,14 +5095,14 @@
         }
       ],
       "start": 202.83,
-      "startOffset": 1886,
+      "startOffset": 1758,
       "word": "stray"
     },
     {
       "alignedWord": "no",
       "case": "success",
       "end": 203.4,
-      "endOffset": 1895,
+      "endOffset": 1767,
       "phones": [
         {
           "duration": 0.09,
@@ -5158,14 +5114,14 @@
         }
       ],
       "start": 203.22,
-      "startOffset": 1893,
+      "startOffset": 1765,
       "word": "No"
     },
     {
       "alignedWord": "judgment",
       "case": "success",
       "end": 203.87,
-      "endOffset": 1904,
+      "endOffset": 1776,
       "phones": [
         {
           "duration": 0.12,
@@ -5197,14 +5153,14 @@
         }
       ],
       "start": 203.4,
-      "startOffset": 1896,
+      "startOffset": 1768,
       "word": "judgment"
     },
     {
       "alignedWord": "cast",
       "case": "success",
       "end": 204.18,
-      "endOffset": 1909,
+      "endOffset": 1781,
       "phones": [
         {
           "duration": 0.13,
@@ -5224,14 +5180,14 @@
         }
       ],
       "start": 203.87,
-      "startOffset": 1905,
+      "startOffset": 1777,
       "word": "cast"
     },
     {
       "alignedWord": "no",
       "case": "success",
       "end": 204.43,
-      "endOffset": 1913,
+      "endOffset": 1785,
       "phones": [
         {
           "duration": 0.11,
@@ -5243,14 +5199,14 @@
         }
       ],
       "start": 204.22,
-      "startOffset": 1911,
+      "startOffset": 1783,
       "word": "no"
     },
     {
       "alignedWord": "harsh",
       "case": "success",
       "end": 204.74,
-      "endOffset": 1919,
+      "endOffset": 1791,
       "phones": [
         {
           "duration": 0.09,
@@ -5270,14 +5226,14 @@
         }
       ],
       "start": 204.43,
-      "startOffset": 1914,
+      "startOffset": 1786,
       "word": "harsh"
     },
     {
       "alignedWord": "display",
       "case": "success",
       "end": 205.27,
-      "endOffset": 1927,
+      "endOffset": 1799,
       "phones": [
         {
           "duration": 0.07,
@@ -5305,14 +5261,14 @@
         }
       ],
       "start": 204.74,
-      "startOffset": 1920,
+      "startOffset": 1792,
       "word": "display"
     },
     {
       "alignedWord": "but",
       "case": "success",
       "end": 205.39000000000001,
-      "endOffset": 1932,
+      "endOffset": 1804,
       "phones": [
         {
           "duration": 0.05,
@@ -5328,14 +5284,14 @@
         }
       ],
       "start": 205.27,
-      "startOffset": 1929,
+      "startOffset": 1801,
       "word": "But"
     },
     {
       "alignedWord": "gentle",
       "case": "success",
       "end": 205.80999999999997,
-      "endOffset": 1939,
+      "endOffset": 1811,
       "phones": [
         {
           "duration": 0.1,
@@ -5363,14 +5319,14 @@
         }
       ],
       "start": 205.42,
-      "startOffset": 1933,
+      "startOffset": 1805,
       "word": "gentle"
     },
     {
       "alignedWord": "words",
       "case": "success",
       "end": 206.12,
-      "endOffset": 1945,
+      "endOffset": 1817,
       "phones": [
         {
           "duration": 0.11,
@@ -5390,14 +5346,14 @@
         }
       ],
       "start": 205.81,
-      "startOffset": 1940,
+      "startOffset": 1812,
       "word": "words"
     },
     {
       "alignedWord": "that",
       "case": "success",
       "end": 206.38,
-      "endOffset": 1950,
+      "endOffset": 1822,
       "phones": [
         {
           "duration": 0.05,
@@ -5413,14 +5369,14 @@
         }
       ],
       "start": 206.12,
-      "startOffset": 1946,
+      "startOffset": 1818,
       "word": "that"
     },
     {
       "alignedWord": "seem",
       "case": "success",
       "end": 206.76,
-      "endOffset": 1955,
+      "endOffset": 1827,
       "phones": [
         {
           "duration": 0.07,
@@ -5436,14 +5392,14 @@
         }
       ],
       "start": 206.45,
-      "startOffset": 1951,
+      "startOffset": 1823,
       "word": "seem"
     },
     {
       "alignedWord": "to",
       "case": "success",
       "end": 206.82,
-      "endOffset": 1958,
+      "endOffset": 1830,
       "phones": [
         {
           "duration": 0.05,
@@ -5455,14 +5411,14 @@
         }
       ],
       "start": 206.76,
-      "startOffset": 1956,
+      "startOffset": 1828,
       "word": "to"
     },
     {
       "alignedWord": "say",
       "case": "success",
       "end": 207.219999,
-      "endOffset": 1962,
+      "endOffset": 1834,
       "phones": [
         {
           "duration": 0.11,
@@ -5474,14 +5430,14 @@
         }
       ],
       "start": 206.929999,
-      "startOffset": 1959,
+      "startOffset": 1831,
       "word": "say"
     },
     {
       "alignedWord": "together",
       "case": "success",
       "end": 207.28,
-      "endOffset": 1972,
+      "endOffset": 1844,
       "phones": [
         {
           "duration": 0.01,
@@ -5509,14 +5465,14 @@
         }
       ],
       "start": 207.22,
-      "startOffset": 1964,
+      "startOffset": 1836,
       "word": "Together"
     },
     {
       "alignedWord": "we",
       "case": "success",
       "end": 208.04,
-      "endOffset": 1975,
+      "endOffset": 1847,
       "phones": [
         {
           "duration": 0.07,
@@ -5528,14 +5484,14 @@
         }
       ],
       "start": 207.82,
-      "startOffset": 1973,
+      "startOffset": 1845,
       "word": "we"
     },
     {
       "alignedWord": "maintain",
       "case": "success",
       "end": 208.789999,
-      "endOffset": 1984,
+      "endOffset": 1856,
       "phones": [
         {
           "duration": 0.01,
@@ -5563,14 +5519,14 @@
         }
       ],
       "start": 208.389999,
-      "startOffset": 1976,
+      "startOffset": 1848,
       "word": "maintain"
     },
     {
       "alignedWord": "the",
       "case": "success",
       "end": 208.88,
-      "endOffset": 1988,
+      "endOffset": 1860,
       "phones": [
         {
           "duration": 0.05,
@@ -5582,14 +5538,14 @@
         }
       ],
       "start": 208.79,
-      "startOffset": 1985,
+      "startOffset": 1857,
       "word": "the"
     },
     {
       "alignedWord": "way",
       "case": "success",
       "end": 209.21,
-      "endOffset": 1992,
+      "endOffset": 1864,
       "phones": [
         {
           "duration": 0.15,
@@ -5601,14 +5557,14 @@
         }
       ],
       "start": 208.88,
-      "startOffset": 1989,
+      "startOffset": 1861,
       "word": "way"
     },
     {
       "alignedWord": "that",
       "case": "success",
       "end": 209.38,
-      "endOffset": 1998,
+      "endOffset": 1870,
       "phones": [
         {
           "duration": 0.05,
@@ -5624,14 +5580,14 @@
         }
       ],
       "start": 209.21,
-      "startOffset": 1994,
+      "startOffset": 1866,
       "word": "That"
     },
     {
       "alignedWord": "keeps",
       "case": "success",
       "end": 209.66,
-      "endOffset": 2004,
+      "endOffset": 1876,
       "phones": [
         {
           "duration": 0.11,
@@ -5651,14 +5607,14 @@
         }
       ],
       "start": 209.41,
-      "startOffset": 1999,
+      "startOffset": 1871,
       "word": "keeps"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 210.35,
-      "endOffset": 2016,
+      "endOffset": 1888,
       "phones": [
         {
           "duration": 0.16,
@@ -5666,14 +5622,14 @@
         }
       ],
       "start": 210.19,
-      "startOffset": 2005,
+      "startOffset": 1877,
       "word": "infection's"
     },
     {
       "alignedWord": "spread",
       "case": "success",
       "end": 210.85,
-      "endOffset": 2023,
+      "endOffset": 1895,
       "phones": [
         {
           "duration": 0.04,
@@ -5697,26 +5653,26 @@
         }
       ],
       "start": 210.4,
-      "startOffset": 2017,
+      "startOffset": 1889,
       "word": "spread"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 2026,
-      "startOffset": 2024,
+      "endOffset": 1898,
+      "startOffset": 1896,
       "word": "at"
     },
     {
       "case": "not-found-in-audio",
-      "endOffset": 2030,
-      "startOffset": 2027,
+      "endOffset": 1902,
+      "startOffset": 1899,
       "word": "bay"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 211.76999999999998,
-      "endOffset": 2038,
+      "endOffset": 1910,
       "phones": [
         {
           "duration": 0.31,
@@ -5724,51 +5680,14 @@
         }
       ],
       "start": 211.46,
-      "startOffset": 2033,
-      "word": "Verba"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2044,
-      "startOffset": 2039,
-      "word": "lenia"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2054,
-      "startOffset": 2046,
-      "word": "effectus"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2060,
-      "startOffset": 2055,
-      "word": "magna"
-    },
-    {
-      "alignedWord": "in",
-      "case": "success",
-      "end": 219.74,
-      "endOffset": 2066,
-      "phones": [
-        {
-          "duration": 0.07,
-          "phone": "ih_B"
-        },
-        {
-          "duration": 0.19,
-          "phone": "n_E"
-        }
-      ],
-      "start": 219.48,
-      "startOffset": 2064,
-      "word": "In"
+      "startOffset": 1905,
+      "word": "Signa"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 220.01999999999998,
-      "endOffset": 2075,
+      "endOffset": 1919,
       "phones": [
         {
           "duration": 0.27,
@@ -5776,14 +5695,32 @@
         }
       ],
       "start": 219.75,
-      "startOffset": 2067,
-      "word": "harmonia"
+      "startOffset": 1911,
+      "word": "sequimur"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 1930,
+      "startOffset": 1921,
+      "word": "veritatem"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 1940,
+      "startOffset": 1931,
+      "word": "quaerimus"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 1949,
+      "startOffset": 1944,
+      "word": "Manus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 221.69,
-      "endOffset": 2086,
+      "endOffset": 1956,
       "phones": [
         {
           "duration": 0.21,
@@ -5791,14 +5728,41 @@
         }
       ],
       "start": 221.48,
-      "startOffset": 2077,
-      "word": "efficacia"
+      "startOffset": 1950,
+      "word": "mundae"
+    },
+    {
+      "alignedWord": "mens",
+      "case": "success",
+      "end": 221.98999999999998,
+      "endOffset": 1962,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "z_E"
+        }
+      ],
+      "start": 221.72,
+      "startOffset": 1958,
+      "word": "mens"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 222.689999,
-      "endOffset": 2095,
+      "endOffset": 1970,
       "phones": [
         {
           "duration": 0.62,
@@ -5806,14 +5770,33 @@
         }
       ],
       "start": 222.069999,
-      "startOffset": 2090,
-      "word": "Signa"
+      "startOffset": 1963,
+      "word": "attenta"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 223.48,
+      "endOffset": 1976,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "n_E"
+        }
+      ],
+      "start": 223.34,
+      "startOffset": 1974,
+      "word": "In"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 223.92999899999998,
-      "endOffset": 2104,
+      "endOffset": 1990,
       "phones": [
         {
           "duration": 0.44,
@@ -5821,83 +5804,14 @@
         }
       ],
       "start": 223.48999899999998,
-      "startOffset": 2096,
-      "word": "sequimur"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 224.47,
-      "endOffset": 2115,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 224.45999999999998,
-      "startOffset": 2106,
-      "word": "veritatem"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2125,
-      "startOffset": 2116,
-      "word": "quaerimus"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2134,
-      "startOffset": 2129,
-      "word": "Manus"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 225.599999,
-      "endOffset": 2141,
-      "phones": [
-        {
-          "duration": 0.16,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 225.439999,
-      "startOffset": 2135,
-      "word": "mundae"
-    },
-    {
-      "alignedWord": "mens",
-      "case": "success",
-      "end": 225.85,
-      "endOffset": 2147,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "m_B"
-        },
-        {
-          "duration": 0.01,
-          "phone": "eh_I"
-        },
-        {
-          "duration": 0.14,
-          "phone": "n_I"
-        },
-        {
-          "duration": 0.09,
-          "phone": "z_E"
-        }
-      ],
-      "start": 225.6,
-      "startOffset": 2143,
-      "word": "mens"
+      "startOffset": 1977,
+      "word": "purificatione"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 227.03,
-      "endOffset": 2155,
+      "endOffset": 1994,
       "phones": [
         {
           "duration": 0.28,
@@ -5905,14 +5819,14 @@
         }
       ],
       "start": 226.75,
-      "startOffset": 2148,
-      "word": "attenta"
+      "startOffset": 1991,
+      "word": "est"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 228.439999,
-      "endOffset": 2168,
+      "endOffset": 2000,
       "phones": [
         {
           "duration": 0.78,
@@ -5920,44 +5834,14 @@
         }
       ],
       "start": 227.659999,
-      "startOffset": 2159,
-      "word": "Sanitatis"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2177,
-      "startOffset": 2169,
-      "word": "custodes"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2183,
-      "startOffset": 2178,
-      "word": "sumus"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2189,
-      "startOffset": 2187,
-      "word": "In"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2203,
-      "startOffset": 2190,
-      "word": "purificatione"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2207,
-      "startOffset": 2204,
-      "word": "est"
+      "startOffset": 1995,
+      "word": "salus"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 230.32,
-      "endOffset": 2213,
+      "endOffset": 2011,
       "phones": [
         {
           "duration": 1.55,
@@ -5965,60 +5849,14 @@
         }
       ],
       "start": 228.76999999999998,
-      "startOffset": 2208,
-      "word": "salus"
-    },
-    {
-      "alignedWord": "per",
-      "case": "success",
-      "end": 230.759999,
-      "endOffset": 2220,
-      "phones": [
-        {
-          "duration": 0.01,
-          "phone": "p_B"
-        },
-        {
-          "duration": 0.09,
-          "phone": "er_E"
-        }
-      ],
-      "start": 230.659999,
-      "startOffset": 2217,
-      "word": "Per"
-    },
-    {
-      "alignedWord": "<unk>",
-      "case": "success",
-      "end": 231.39,
-      "endOffset": 2230,
-      "phones": [
-        {
-          "duration": 0.63,
-          "phone": "oov_S"
-        }
-      ],
-      "start": 230.76,
-      "startOffset": 2221,
-      "word": "scientiam"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2241,
-      "startOffset": 2232,
-      "word": "absolutio"
-    },
-    {
-      "case": "not-found-in-audio",
-      "endOffset": 2252,
-      "startOffset": 2245,
+      "startOffset": 2004,
       "word": "Eternam"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 232.84,
-      "endOffset": 2264,
+      "endOffset": 2023,
       "phones": [
         {
           "duration": 1.11,
@@ -6026,14 +5864,14 @@
         }
       ],
       "start": 231.73,
-      "startOffset": 2253,
+      "startOffset": 2012,
       "word": "vigilantiam"
     },
     {
       "alignedWord": "pro",
       "case": "success",
       "end": 234.34,
-      "endOffset": 2271,
+      "endOffset": 2030,
       "phones": [
         {
           "duration": 0.01,
@@ -6049,14 +5887,14 @@
         }
       ],
       "start": 232.84,
-      "startOffset": 2268,
+      "startOffset": 2027,
       "word": "Pro"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 234.989999,
-      "endOffset": 2280,
+      "endOffset": 2039,
       "phones": [
         {
           "duration": 0.28,
@@ -6064,14 +5902,14 @@
         }
       ],
       "start": 234.709999,
-      "startOffset": 2272,
+      "startOffset": 2031,
       "word": "sanitate"
     },
     {
       "alignedWord": "<unk>",
       "case": "success",
       "end": 235.43,
-      "endOffset": 2287,
+      "endOffset": 2046,
       "phones": [
         {
           "duration": 0.61,
@@ -6079,7 +5917,7 @@
         }
       ],
       "start": 234.82,
-      "startOffset": 2281,
+      "startOffset": 2040,
       "word": "omnium"
     }
   ]
