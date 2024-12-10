@@ -1,115 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Handwashing Song</title>
     <style>
+        /* Base styles for the page */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
             max-width: 800px;
-            margin: auto;
-            position: relative;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
         }
 
-        h1 {
-            color: #333;
-            text-align: center;
+        /* Audio player styling */
+        #audioPlayer {
+            width: 100%;
+            margin: 20px 0;
         }
 
-        .verse {
-            margin-bottom: 20px;
+        /* Lyrics container styling */
+        #lyricsContainer {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
         }
 
-        .chorus {
+        /* Word styling */
+        .word {
+            display: inline-block;
+            margin: 0 4px;
+            padding: 2px 4px;
+            border-radius: 3px;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Active word highlight */
+        .active {
+            background-color: #ffd700;
+        }
+
+        /* Latin text styling */
+        .latin {
             font-style: italic;
-            margin-bottom: 20px;
-            background-color: #f5f5f5;
-            padding: 10px;
-            border-left: 3px solid #0066cc;
-        }
-
-        .clickable {
             color: #0066cc;
-            cursor: pointer;
-            text-decoration: underline;
         }
 
-        .tooltip {
-            display: none;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            position: absolute;
-            z-index: 10;
-            max-width: 300px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-        }
-
-        .highlight {
-            background-color: yellow;
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+            color: #666;
         }
     </style>
 </head>
 <body>
     <h1>Interactive Handwashing Song</h1>
-
-    <audio id="audio" controls>
+    
+    <!-- Audio player -->
+    <audio id="audioPlayer" controls>
         <source src="Clean_Canticle_2.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 
-    <div id="lyrics">
-        <p class="chorus clickable" data-translation="We follow the signs, we seek the truth">*Signa sequimur, veritatem quaerimus*</p>
-        <p class="chorus clickable" data-translation="Clean hands, attentive mind">*Manus mundae, mens attenta*</p>
-        <p class="chorus clickable" data-translation="We are the guardians of health">*Sanitatis custodes sumus*</p>
-        <p class="verse">Wash thy palms with measured care</p>
-        <p class="verse">Twenty seconds, time to spare</p>
-        <p class="verse">Before the patient, after too</p>
-        <p class="verse">This vital rite we must pursue</p>
-        <p class="chorus clickable" data-translation="Measured time, ritual preserved">*Tempus numeratum, rituale servatum*</p>
-        <p class="chorus clickable" data-translation="In washing, steadfastness">*In ablutione, constantia*</p>
-        <!-- Continue with the rest of the lyrics, repeating the format -->
+    <!-- Lyrics container -->
+    <div id="lyricsContainer">
+        <div id="lyrics" class="loading">Loading lyrics...</div>
     </div>
 
-    <div id="tooltip" class="tooltip"></div>
-
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const audio = document.getElementById('audio');
-            const tooltip = document.getElementById('tooltip');
-            const lyricsContainer = document.getElementById('lyrics');
+        // Initialize key variables
+        let wordsData = [];
+        let currentWordIndex = 0;
+        
+        // Get DOM elements
+        const audioPlayer = document.getElementById('audioPlayer');
+        const lyricsContainer = document.getElementById('lyrics');
 
-            document.addEventListener('click', (event) => {
-                if (event.target.classList.contains('clickable')) {
-                    const translation = event.target.getAttribute('data-translation');
-                    tooltip.textContent = translation;
-                    tooltip.style.display = 'block';
-                    const rect = event.target.getBoundingClientRect();
-                    tooltip.style.left = (rect.left + window.scrollX) + 'px';
-                    tooltip.style.top = (rect.bottom + window.scrollY + 5) + 'px';
-                } else {
-                    tooltip.style.display = 'none';
+        // Function to check if a word is Latin (enclosed in asterisks)
+        function isLatinWord(word) {
+            return word.startsWith('*') && word.endsWith('*');
+        }
+
+        // Function to clean word text (remove asterisks)
+        function cleanWordText(word) {
+            return word.replace(/^\*|\*$/g, '');
+        }
+
+        // Function to create word elements
+        function createWordElements(words) {
+            lyricsContainer.innerHTML = ''; // Clear loading message
+            
+            words.forEach((wordData, index) => {
+                if (wordData.case === 'success') {
+                    const span = document.createElement('span');
+                    span.className = `word ${isLatinWord(wordData.word) ? 'latin' : ''}`;
+                    span.textContent = cleanWordText(wordData.word);
+                    span.dataset.start = wordData.start;
+                    span.dataset.end = wordData.end;
+                    span.dataset.index = index;
+                    
+                    lyricsContainer.appendChild(span);
+                    
+                    // Add space between words
+                    if (index < words.length - 1) {
+                        lyricsContainer.appendChild(document.createTextNode(' '));
+                    }
                 }
             });
+        }
 
-            audio.addEventListener('timeupdate', () => {
-                const currentTime = audio.currentTime;
-                const lines = lyricsContainer.querySelectorAll('p');
-                lines.forEach(line => {
-                    const startTime = parseFloat(line.getAttribute('data-start'));
-                    if (currentTime >= startTime) {
-                        line.classList.add('highlight');
-                    } else {
-                        line.classList.remove('highlight');
+        // Function to update active words based on current time
+        function updateActiveWords(currentTime) {
+            const words = document.getElementsByClassName('word');
+            
+            Array.from(words).forEach(word => {
+                const start = parseFloat(word.dataset.start);
+                const end = parseFloat(word.dataset.end);
+                
+                if (currentTime >= start && currentTime <= end) {
+                    word.classList.add('active');
+                    
+                    // Scroll word into view if needed
+                    const rect = word.getBoundingClientRect();
+                    const containerRect = lyricsContainer.getBoundingClientRect();
+                    
+                    if (rect.top < containerRect.top || rect.bottom > containerRect.bottom) {
+                        word.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
-                });
+                } else {
+                    word.classList.remove('active');
+                }
             });
+        }
+
+        // Listen for timeupdate event on audio player
+        audioPlayer.addEventListener('timeupdate', () => {
+            updateActiveWords(audioPlayer.currentTime);
         });
+
+        // Load and process the lyrics data
+        async function loadLyrics() {
+            try {
+                const response = await window.fs.readFile('songtimestamps.json', { encoding: 'utf8' });
+                const data = JSON.parse(response);
+                wordsData = data.words;
+                
+                // Create word elements once data is loaded
+                createWordElements(wordsData);
+            } catch (error) {
+                console.error('Error loading lyrics:', error);
+                lyricsContainer.innerHTML = 'Error loading lyrics. Please try refreshing the page.';
+            }
+        }
+
+        // Initialize the application
+        loadLyrics();
     </script>
 </body>
 </html>
